@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.motion-icon-button {
+  animation: motionUpDown 4s infinite;
+}
+
+@keyframes motionUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.active-link {
+  text-decoration: underline;
+  /* Remove underline */
+  color: #fff;
+  /* Set text color for active link */
+  /* Add any other styles you want for the active link */
+}
