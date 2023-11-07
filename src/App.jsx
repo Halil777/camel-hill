@@ -8,10 +8,10 @@ import Index from "./components/navbar/Index";
 import OilGasServices from "./pages/oilGasServices/OilGasServices";
 import CoiledTubing from "./components/equipment/coiled/CoiledTubing";
 import EnviromentProtection from "./components/equipment/enviroment-protection/EnviromentProtection";
-import Inspection from "./components/innovativeTechnologies/Inspection";
-import Intratubular from "./components/innovativeTechnologies/Intratubular";
-import RemotedlyOperated from "./components/innovativeTechnologies/RemotedlyOperated";
-import TankCleaning from "./components/innovativeTechnologies/TankCleaning";
+import Inspection from "./components/innovativeTechnologies/inspection/Inspection";
+import Intratubular from "./components/innovativeTechnologies/intratubular/Intratubular";
+import RemotedlyOperated from "./components/innovativeTechnologies/remotedly-operated/RemotedlyOperated";
+import TankCleaning from "./components/innovativeTechnologies/tank-cleaning/TankCleaning";
 
 function App() {
   Aos.init({
