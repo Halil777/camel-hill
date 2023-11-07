@@ -16,11 +16,7 @@ const categories = [
       "Additives",
       "Environment Protection Products",
     ],
-    subcategoriesLinks: [
-      "coiled-tubing",
-      "additives",
-      "environment-protection",
-    ],
+    subcategoriesLinks: ["coiled-tubing", "environment-protection"],
   },
   {
     id: "innovative-technologies",

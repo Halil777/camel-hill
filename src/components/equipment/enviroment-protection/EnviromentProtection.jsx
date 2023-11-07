@@ -1,3 +1,4 @@
+import AdditivesQuikStone from "../additives/AdditivesQuikStone";
 import EnvProducts from "./EnvProducts";
 import Hero from "./Hero";
 
@@ -6,6 +7,7 @@ const EnviromentProtection = () => {
     <>
       <Hero />
       <EnvProducts />
+      <AdditivesQuikStone />
     </>
   );
 };

@@ -14,6 +14,7 @@ import CasingString from "./CasingString";
 import FloatForLowering from "./FloatForLowering";
 import RunningCasing from "./RunningCasing";
 import CoiledCarousel from "./CoiledCarousel";
+import Additives from "../additives/Additives";
 
 const Spread = () => {
   return (
@@ -110,6 +111,7 @@ const Spread = () => {
           </Grid>
         </Grid>
       </Container>
+      <Additives />
     </div>
   );
 };
