@@ -93,6 +93,7 @@ const Navbar = () => {
             direction="row"
             alignItems="center"
             justifyContent="space-between"
+            sx={{ display: { md: "flex", lg: "flex", sm: "none", xs: "none" } }}
           >
             <Stack direction="row" alignItems="center" spacing={5}>
               <img src="./images/logo.png" alt="Logo" />

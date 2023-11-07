@@ -1,6 +1,8 @@
 import { Container, Grid, Typography, Stack, Box } from "@mui/material";
 import { Dropdown, Space, Menu } from "antd";
 import { useNavigate, Link } from "react-router-dom";
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import EmailIcon from "@mui/icons-material/Email";
 
 const categories = [
   { id: "", name: "Home" },
@@ -159,27 +161,54 @@ const Footer = () => {
               Contact
             </Typography>
             <Stack spacing={1} mt={3}>
-              <Typography
+              <Stack
+                direction="row"
                 data-aos="fade-down"
                 data-aos-delay="400"
-                sx={{ color: "#fff", fontSize: "15px" }}
+                alignItems="center"
+                spacing={1}
               >
-                +993 12 46-83-54
-              </Typography>
-              <Typography
+                <PhoneInTalkIcon sx={{ color: "#fff" }} />
+                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
+                  +993 12 46-83-54
+                </Typography>
+              </Stack>
+              <Stack
+                direction="row"
                 data-aos="fade-down"
                 data-aos-delay="500"
-                sx={{ color: "#fff", fontSize: "15px" }}
+                alignItems="center"
+                spacing={1}
               >
-                +993 12 46-83-55
-              </Typography>
-              <Typography
+                <PhoneInTalkIcon sx={{ color: "#fff" }} />
+                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
+                  +993 12 46-83-55
+                </Typography>
+              </Stack>
+              <Stack
+                direction="row"
                 data-aos="fade-down"
                 data-aos-delay="600"
-                sx={{ color: "#fff", fontSize: "15px" }}
+                alignItems="center"
+                spacing={1}
               >
-                +993 12 46-83-56
-              </Typography>
+                <PhoneInTalkIcon sx={{ color: "#fff" }} />
+                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
+                  +993 12 46-83-56
+                </Typography>
+              </Stack>
+              <Stack
+                direction="row"
+                data-aos="fade-down"
+                data-aos-delay="600"
+                alignItems="center"
+                spacing={1}
+              >
+                <EmailIcon sx={{ color: "#fff" }} />
+                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
+                  info@duyelidepe.com
+                </Typography>
+              </Stack>
             </Stack>
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
