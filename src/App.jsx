@@ -28,7 +28,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />}>
             <Route index element={<Home />} />
-            <Route path="/construction" element={<ConstructionAndEcology />} />
             <Route path="/oil-gas" element={<OilGasServices />} />
             <Route path="/coiled-tubing" element={<CoiledTubing />} />
             <Route path="/additives" element={<Additives />} />

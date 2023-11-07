@@ -6,14 +6,11 @@ import { useNavigate, Link, useLocation } from "react-router-dom";
 
 const categories = [
   { id: "", name: "Home" },
-  {
-    id: "construction",
-    name: "Construction and Ecology",
-  },
+
   { id: "oil-gas", name: "Oil & Gas services" },
   {
     id: "equipment-chemistry",
-    name: "Equipment Chemistry",
+    name: "Equipment and Chemistry",
     subcategories: [
       "Coiled Tubing",
       "Additives",
