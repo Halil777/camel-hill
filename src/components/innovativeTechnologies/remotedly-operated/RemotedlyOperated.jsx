@@ -1,5 +1,11 @@
+import OperatedVehicle from "./OperatedVehicle";
+
 const RemotedlyOperated = () => {
-  return <></>;
+  return (
+    <>
+      <OperatedVehicle />
+    </>
+  );
 };
 
 export default RemotedlyOperated;

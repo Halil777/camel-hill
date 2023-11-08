@@ -180,3 +180,52 @@ export const smallNavbarItems = [
 
   { id: 8, title: "Remotedly Operated", link: "remotedly-operated" },
 ];
+
+export const operatedVehileItems = [
+  {
+    id: 1,
+    title: "Super GNOM",
+    subTitle:
+      "The most advanced model Super Gnom can be equipped with the grabber, scan sector sonar (Micron Tritech or similar) and USBL positioning system. More powerful thrusters and additional illumination installed on the Super Gnom expand range of vehicle applications.",
+    pic: "./operated-vehicle/pic1.webp",
+  },
+
+  {
+    id: 2,
+    title: "GNOM Standard",
+    subTitle:
+      "The Gnom Standard is a basic model of compact ROVs Gnom. It has small size, thin umbilical cable and very high manoeuvring capability which allows operating in hard-to-reach places including inside sunken wrecks.",
+    pic: "./operated-vehicle/pic2.webp",
+  },
+
+  {
+    id: 3,
+    title: "GNOM Baby",
+    subTitle:
+      "The ROV Gnom Baby is a really micro sized vehicle that has all main features inherited from larger underwater systems. The vehicle combines low cost with the full set of Gnom capabilities.",
+    pic: "./operated-vehicle/pic3.webp",
+  },
+
+  {
+    id: 4,
+    title: "Drop Camera",
+    subTitle:
+      "Underwater drop camera system is a high-resolution, color or B/W waterproof camera, with standard or a wide view angle. It can be used for underwater pipeline inspection, search and rescue, sport fishing, treasure hunting or marine biology research. The drop camera can be installed on the diver's helmet.",
+    pic: "./operated-vehicle/pic4.webp",
+  },
+
+  {
+    id: 5,
+    title: "Panoramic Dcam",
+    subTitle:
+      "The panoramic drop videosystem with a review angle 360 ⁰ is developed. The system consists of four horizontal or three horizontal and one vertical videocameras with the built in LEDs light placed in the main tight hull. Besides, the underwater module is equipped by the depthmeter and a compass with data on screen overlay.",
+    pic: "./operated-vehicle/pic5.webp",
+  },
+
+  {
+    id: 6,
+    title: "ROV «GNOM Pro»",
+    subTitle: "GNOM Pro — new line of ROVs GNOM family.",
+    pic: "./operated-vehicle/pic6.webp",
+  },
+];
