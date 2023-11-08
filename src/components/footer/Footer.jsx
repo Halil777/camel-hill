@@ -6,24 +6,12 @@ import EmailIcon from "@mui/icons-material/Email";
 
 const categories = [
   { id: "", name: "Home" },
-  {
-    id: "construction",
-    name: "Construction and Ecology",
-  },
   { id: "oil-gas", name: "Oil & Gas services" },
   {
     id: "equipment-chemistry",
-    name: "Equipment",
-    subcategories: [
-      "Coiled Tubing",
-      "Additives",
-      "Environment Protection Products",
-    ],
-    subcategoriesLinks: [
-      "coiled-tubing",
-      "additives",
-      "environment-protection",
-    ],
+    name: "Equipment and Chemistry",
+    subcategories: ["Coiled Tubing", "Environment Protection Products"],
+    subcategoriesLinks: ["coiled-tubing", "environment-protection"],
   },
   {
     id: "innovative-technologies",
