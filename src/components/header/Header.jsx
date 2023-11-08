@@ -23,6 +23,7 @@ const Header = () => {
           direction="row"
           alignItems="center"
           justifyContent="space-between"
+          sx={{ display: { lg: "flex", md: "flex", sm: "none", xs: "none" } }}
         >
           <Stack direction="row" alignItems="center" spacing={7}>
             <Stack direction="row" spacing={1} alignItems="center">

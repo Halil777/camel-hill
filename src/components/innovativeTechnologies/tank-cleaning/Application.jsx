@@ -14,7 +14,13 @@ const Application = () => {
   return (
     <div>
       <Container>
-        <Grid container spacing={7} mt={4} mb={8}>
+        <Typography align="center" variant="h3" textTransform="uppercase">
+          Application
+        </Typography>
+        <Typography align="center" variant="h6">
+          ONE UNIVERSAL PLATFORM FOR MULTIPLE TASKS
+        </Typography>
+        <Grid container spacing={7} mt={1} mb={8}>
           {tubotItems.map((item, i) => (
             <Grid
               item
@@ -24,7 +30,12 @@ const Application = () => {
               xs={12}
               sm={12}
             >
-              <Card sx={{ height: 550 }}>
+              <Card
+                sx={{
+                  height: 550,
+                  "&:hover": { boxShadow: "4px 4px 8px rgba(0,0,0,0.7)" },
+                }}
+              >
                 <CardActionArea>
                   <CardMedia
                     component="img"

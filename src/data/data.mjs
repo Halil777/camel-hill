@@ -138,3 +138,45 @@ export const tubotItems = [
     pic: "./innovative/tub4.webp",
   },
 ];
+
+export const smallNavbarItems = [
+  {
+    id: 1,
+    title: "Home",
+    link: "",
+  },
+
+  {
+    id: 2,
+    title: "Oil & Gas services",
+    link: "oil-gas",
+  },
+
+  {
+    id: 3,
+    title: "Coiled Tubing",
+    link: "coiled-tubing",
+  },
+
+  {
+    id: 4,
+    title: "Environment Protection",
+    link: "environment-protection",
+  },
+
+  {
+    id: 5,
+    title: "Tank Cleaning",
+    link: "tank-cleaning",
+  },
+
+  {
+    id: 6,
+    title: "Intratubular Cleaning",
+    link: "intratubular-cleaning",
+  },
+
+  { id: 7, title: "Inspection", link: "inspection" },
+
+  { id: 8, title: "Remotedly Operated", link: "remotedly-operated" },
+];
