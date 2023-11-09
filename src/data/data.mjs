@@ -229,3 +229,1112 @@ export const operatedVehileItems = [
     pic: "./operated-vehicle/pic6.webp",
   },
 ];
+
+// Super Gnom Items =========================================================================================================
+
+export const underwaterPartItems = [
+  {
+    id: 1,
+    title: "Maximum Operating depth",
+    subTitle: "up to 150 m",
+  },
+
+  {
+    id: 2,
+    title: "Dimensions (LxWxH)",
+    subTitle: "360 mm x 220 mm x 200 mm",
+  },
+
+  {
+    id: 3,
+    title: "Weight in air / total system weight",
+    subTitle: "	5 kg / 30 kg 6 magnetically coupled DC motors",
+  },
+
+  {
+    id: 4,
+    title: "Thrusters",
+    subTitle:
+      "Horizontal: 4x thrusters, 24 VDC 16W Vertical: 2x thruster, 24 VDC 16W",
+  },
+
+  {
+    id: 5,
+    title: "Cruising speed",
+    subTitle: "up to 3 knots",
+  },
+
+  {
+    id: 6,
+    title: "Thrust Forward",
+    subTitle: "2 kgf",
+  },
+
+  {
+    id: 7,
+    title: "Thrust Vertical",
+    subTitle: "1 kgf",
+  },
+
+  {
+    id: 8,
+    title: "Payload",
+    subTitle: "0.5 kg",
+  },
+
+  {
+    id: 9,
+    title: "Vehicle Protection",
+    subTitle: "Polypropylene frame",
+  },
+];
+
+export const tetherItems = [
+  {
+    title: "Max. tether length",
+    subTitle: "250 m",
+  },
+
+  {
+    title: "Cable diameter",
+    subTitle: "4.5 mm",
+  },
+
+  {
+    title: "Breaking Strength",
+    subTitle: "80 kg",
+  },
+
+  {
+    title: "Weight in Air",
+    subTitle: "3kg/100 m",
+  },
+
+  {
+    title: "Weight in Fresh Water",
+    subTitle: "Neutrally Buoyant",
+  },
+
+  {
+    title: "Type",
+    subTitle: "Ultra thin flexible Kevlar Coax cable",
+  },
+
+  {
+    title: "Max. Working Load ",
+    subTitle: "30 kg",
+  },
+];
+
+export const cameraSystemItems = [
+  {
+    title: "Camera Model",
+    subTitle: "Sony Super HAD 2CCD",
+  },
+
+  {
+    title: "Camera resolution",
+    subTitle: "700 TV Lines ",
+  },
+
+  {
+    title: "Image Sensor",
+    subTitle: "1/3 interline Transfer CCD",
+  },
+
+  {
+    title: "Mini illimunation",
+    subTitle: "0.1 lux (0.01 - b/w camera)",
+  },
+
+  {
+    title: "Lens",
+    subtitle: "3.6 mm/F2.0",
+  },
+
+  {
+    title: "Iris Control",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Focus",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Field of View (FOV)",
+    subTitle: "66°",
+  },
+
+  {
+    title: "Camera Tilt",
+    subTitle: "+/-50°",
+  },
+];
+
+export const lightingSystemItems = [
+  {
+    title: "Light Source",
+    subTitle: "White ultra-bright LEDs",
+  },
+
+  {
+    title: "Qty of Lights",
+    subTitle: "4x",
+  },
+
+  {
+    title: "Qty of LEDs",
+    subTitle: "8x",
+  },
+
+  {
+    title: "Power",
+    subTitle: "1 Watt each",
+  },
+
+  {
+    title: "Luminous Flux",
+    subTitle: "1000 lumen",
+  },
+
+  {
+    title: "Beam Angle",
+    subTitle: "105° ecah",
+  },
+
+  {
+    title: "Colour Temperature",
+    subTitle: "5600-6000° Kelvin",
+  },
+
+  {
+    title: "Control",
+    subTitle: "Variable intensity",
+  },
+];
+
+export const navigationSystem = [
+  {
+    title: "Sensors",
+    subTitle: "compass and Depth",
+  },
+
+  {
+    title: "on-screen overlay",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-guide mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-depth mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Heading Accuracy",
+    subTitle: "+/-3°",
+  },
+
+  {
+    title: "Compass resolution",
+    subTitle: "0.5°",
+  },
+
+  {
+    title: "Depth Sensor Accuracy",
+    subTitle: "1% F.S",
+  },
+];
+
+export const surfaceControlUnitItems = [
+  {
+    title: "Power supply",
+    subTitle: "Single Phase 100-240 VAC @ 400 W, 60-50 Hz",
+  },
+
+  {
+    title: "Recommended Input Voltage",
+    subTitle: "220 VAC",
+  },
+
+  {
+    title: "Output Voltage",
+    subTitle: "180VDC",
+  },
+
+  {
+    title: "Maximum power output",
+    subTitle: "400 Watt",
+  },
+
+  {
+    title: "Monitor",
+    subTitle: "15 LCD",
+  },
+
+  {
+    title: "Control Panel System",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "ON-Screen Display",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Navigation System",
+    subTitle: "Joystick",
+  },
+
+  {
+    title: "DVR",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "System Protection",
+    subTitle: "Full system packed in 2 high-perfomance waterproof cases",
+  },
+];
+
+export const systemSetItems = [
+  "Super Gnom submersible (operating depth up to 150m)",
+  "Tether 150 m (up to 250)",
+  "Digital compass with the auto-heading mode (data on screen)",
+  "Depth sensor (auto-depth mode)",
+  "2 color videocameras (front and rear)",
+  "Camera tilt servo ±50°",
+  'LCD TV monitor 15"',
+  "DVR",
+  "Hand reel with slip ring connector",
+  "Surface control/power unit",
+  "Protective polypropylene frame with buoyant module",
+  "Sector sonar (option)",
+  "USBL positioning system (option)",
+  "Packed in 2 cases",
+  "Joystick",
+  "Cable connectors set",
+  "Repair kit",
+  "User's manual",
+];
+
+// GNOM Standart Items ==================================================================================================
+
+export const underwaterPartItemsStandart = [
+  {
+    title: "Maximum Operating depth",
+    subTitle: "up to 150 m",
+  },
+
+  {
+    title: "Dimensions (LxWxH)",
+    subTitle: "350 mm x 200 mm x 200 mm",
+  },
+
+  {
+    title: "Weight in air / total system weight",
+    subTitle: "3 kg / 12 kg",
+  },
+
+  {
+    title: "Thrusters",
+    subTitle:
+      "3 magnetically coupled DC motors\nHorizontal: 2x thrusters, 24 VDC 16W\nVertical: 1x thruster, 24 VDC 16W",
+  },
+
+  {
+    title: "Cruising speed",
+    subTitle: "up to 3 knots",
+  },
+
+  {
+    title: "Thrust Forward",
+    subTitle: "2 kgf",
+  },
+
+  {
+    title: "Thrust Vertical",
+    subTitle: "1 kgf",
+  },
+
+  {
+    title: "Payload",
+    subTitle: "0.3 kg",
+  },
+
+  {
+    title: "Vehicle Protection",
+    subTitle: "two skids",
+  },
+];
+
+export const tetherItemsStandart = [
+  {
+    title: "Max. tether length",
+    subTitle: "250 m",
+  },
+
+  {
+    title: "Cable diameter",
+    subTitle: "4.5 mm",
+  },
+
+  {
+    title: "Breaking Strength",
+    subTitle: "80 kg",
+  },
+
+  {
+    title: "Weight in Air",
+    subTitle: "3 kg/100 m",
+  },
+
+  {
+    title: "Weight in Fresh Water",
+    subTitle: "Neutrally Buoyant",
+  },
+
+  {
+    title: "Type",
+    subTitle: "Ultra thin flexible Kevlar Coax cable",
+  },
+
+  {
+    title: "Max. Working Load",
+    subTitle: "30 kg",
+  },
+];
+
+export const cameraSystemItemsStandart = [
+  {
+    title: "Camera Model",
+    subTitle: "Sony Super HAD 2 CCD",
+  },
+
+  {
+    title: "Camera resolution",
+    subTitle: "700 TV Lines",
+  },
+
+  {
+    title: "Image Sensor",
+    subTitle: '1/3" Interline Transfer CCD',
+  },
+
+  {
+    title: "Mini Illumination",
+    subTitle: "0.1 lux (0.01 - b/w camera)",
+  },
+
+  {
+    title: "Lens",
+    subTitle: "3.6 mm/F2.0",
+  },
+
+  {
+    title: "Iris Control",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Focus",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Field of View (FOV)",
+    subTitle: "66º",
+  },
+
+  {
+    title: "Camera Tilt",
+    subTitle: "+/- 50º",
+  },
+];
+
+export const lightingSystemItemsStandart = [
+  {
+    title: "Light Source",
+    subTitle: "White ultra-bright LEDs",
+  },
+
+  {
+    title: "Qty of Lights",
+    subTitle: "2x",
+  },
+
+  {
+    title: "Qty of LEDs",
+    subTitle: "4x",
+  },
+
+  {
+    title: "Power",
+    subTitle: "1 Watt each",
+  },
+
+  {
+    title: "Luminous Flux",
+    subTitle: "400 lumen",
+  },
+
+  {
+    title: "Beam Angle",
+    subTitle: "105º each",
+  },
+
+  {
+    title: "Colour Temperature",
+    subTitle: "5600-6000º Kelvin",
+  },
+
+  {
+    title: "Control",
+    subTitle: "Variable intensity",
+  },
+];
+
+export const navigationSystemStandart = [
+  {
+    title: "Sensors",
+    subTitle: "compass and Depth",
+  },
+
+  {
+    title: "on-screen overlay",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-guide mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-depth mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Heading Accuracy",
+    subTitle: "+/-3°",
+  },
+
+  {
+    title: "Compass resolution",
+    subTitle: "0.5°",
+  },
+
+  {
+    title: "Depth Sensor Accuracy",
+    subTitle: "1% F.S",
+  },
+];
+
+export const surfaceControlUnitItemsStandart = [
+  {
+    title: "Power supply",
+    subTitle: "Single Phase 100-240 VAC @ 300 W, 60-50 Hz",
+  },
+
+  {
+    title: "Recommended Input Voltage",
+    subTitle: "220 VAC",
+  },
+
+  {
+    title: "Output Voltage",
+    subTitle: "180VDC",
+  },
+
+  {
+    title: "Maximum power output",
+    subTitle: "200 Watt",
+  },
+
+  {
+    title: "Monitor",
+    subTitle: "No",
+  },
+
+  {
+    title: "Control Panel System",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "ON-Screen Display",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Navigation System",
+    subTitle: "Joystick",
+  },
+];
+
+export const systemSetItemsStandart = [
+  "Gnom standard submersible (operating depth up to 150m)",
+  "3 thrusters",
+  "Color videocamera",
+  "Camera tilt servo",
+  "2 cluster LEDs",
+  "Tether 70m (up to 250 m)",
+  "Digital compass with the auto-heading mode (option)",
+  "Depth gauge (autodepth mode)",
+  "Surface control/power unit",
+  "Joystick",
+  "Cable connectors set",
+  "Repair kit",
+  "User's manual",
+];
+
+// GNOM Baby Items =======================================================================================
+
+export const underwaterPartItemsBaby = [
+  {
+    title: "Maximum Operating depth",
+    subTitle: "up to 60 m",
+  },
+
+  {
+    title: "Dimensions (LxWxH)",
+    subTitle: "210 mm x 180 mm x 150 mm",
+  },
+
+  {
+    title: "Weight in air / total system weight",
+    subTitle: "1.5 kg / 5 kg",
+  },
+
+  {
+    title: "Thrusters",
+    subTitle:
+      "3 magnetically coupled DC motors\nHorizontal: 2x thrusters, 24 VDC 10W\nVertical: 1x thruster, 24 VDC 10W",
+  },
+
+  {
+    title: "Cruising speed",
+    subTitle: "up to 2 knots",
+  },
+
+  {
+    title: "Thrust Forward",
+    subTitle: "1 kgf",
+  },
+
+  {
+    title: "Thrust Vertical",
+    subTitle: "0.5 kgf",
+  },
+
+  {
+    title: "Payload",
+    subTitle: "NA",
+  },
+
+  {
+    title: "Vehicle Protection",
+    subTitle: "two skids",
+  },
+];
+
+export const tetherItemsBaby = [
+  {
+    title: "Max. tether length",
+    subTitle: "75 m",
+  },
+
+  {
+    title: "Cable diameter",
+    subTitle: "4.5 mm",
+  },
+
+  {
+    title: "Breaking Strength",
+    subTitle: "80 kg",
+  },
+
+  {
+    title: "Weight in Air",
+    subTitle: "3 kg/100 m",
+  },
+
+  {
+    title: "Weight in Fresh Water",
+    subTitle: "Neutrally Buoyant",
+  },
+
+  {
+    title: "Type",
+    subTitle: "Ultra thin flexible Kevlar Coax cable",
+  },
+
+  {
+    title: "Max. Working Load",
+    subTitle: "30 kg",
+  },
+];
+
+export const cameraSystemItemsBaby = [
+  {
+    title: "Camera Model",
+    subTitle: "Sony Super HAD 2 CCD",
+  },
+
+  {
+    title: "Camera resolution",
+    subTitle: "700 TV Lines",
+  },
+
+  {
+    title: "Image Sensor",
+    subTitle: '1/3" Interline Transfer CCD',
+  },
+
+  {
+    title: "Mini Illumination",
+    subTitle: "0.1 lux (0.01 - b/w camera)",
+  },
+
+  {
+    title: "Lens",
+    subTitle: "3.6 mm/F2.0",
+  },
+
+  {
+    title: "Iris Control",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Focus",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Field of View (FOV)",
+    subTitle: "66º",
+  },
+
+  {
+    title: "Camera Tilt",
+    subTitle: "+/- 50º",
+  },
+];
+
+export const lightingSystemItemsBaby = [
+  {
+    title: "Light Source",
+    subTitle: "White ultra-bright LEDs",
+  },
+
+  {
+    title: "Qty of Lights",
+    subTitle: "2x",
+  },
+
+  {
+    title: "Qty of LEDs",
+    subTitle: "6x",
+  },
+
+  {
+    title: "Power",
+    subTitle: "0.5 Watt each",
+  },
+
+  {
+    title: "Luminous Flux",
+    subTitle: "150 lumen",
+  },
+
+  {
+    title: "Beam Angle",
+    subTitle: "105º each",
+  },
+
+  {
+    title: "Colour Temperature",
+    subTitle: "5600-6000º Kelvin",
+  },
+
+  {
+    title: "Control",
+    subTitle: "Variable intensity",
+  },
+];
+
+export const navigationSystemBaby = [
+  {
+    title: "Sensors",
+    subTitle: "Compass and Depth",
+  },
+
+  {
+    title: "Teletext",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-guide mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-depth mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Heading Accuracy",
+    subTitle: "+/-3º",
+  },
+
+  {
+    title: "Compass Resolution",
+    subTitle: "0.5º",
+  },
+
+  {
+    title: "Depth Sensor Accuracy",
+    subTitle: "1% F.S.",
+  },
+];
+
+export const surfaceControlUnitItemsBaby = [
+  {
+    title: "Maximum power output",
+    subTitle: "200 Watt",
+  },
+
+  {
+    title: "Monitor",
+    subTitle: '15" LCD',
+  },
+
+  {
+    title: "Hand reel with slip ring ",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Control Panel System",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "System Protection",
+    subTitle: "Full system packed in 2 high-performance waterproof cases",
+  },
+];
+
+export const systemSetItemsBaby = [
+  "Gnom Baby submersible (Depth Rating 50m)",
+  "3 thrusters",
+  "Tether 35m",
+  "Color videocamera",
+  "Camera tilt servo",
+  "2 clusters of LEDs",
+  "Depth sensor",
+  "Compass",
+  "Surface control/power supply unit",
+  "Joystick",
+  "Cable connectors set",
+  "Repair kit",
+  "User’s manual",
+];
+
+export const systemSetItemsBabyTwo = [
+  "Gnom Baby submersible (Depth Rating 50m)",
+  "3 thrusters",
+  "Tether 50m",
+  "Color videocamera",
+  "Camera tilt servo",
+  "2 clusters of LEDs",
+  "Depth sensor",
+  "Compass",
+  "Hand reel with slip ring",
+  "Surface control/power supply unit",
+  'LCD monitor 15"',
+  "2 high-performance waterproof cases",
+  "Joystick",
+  "Cable connectors set",
+  "Repair kit",
+  "User’s manual",
+];
+
+// Rov GNOM Pro ================================================================================================
+
+export const underwaterPartItemsPro = [
+  {
+    title: "Maximum Operating depth",
+    subTitle: "150 m (optionally up to 300 m)",
+  },
+
+  {
+    title: "Dimensions (LxWxH)",
+    subTitle: "520 mm x 440 mm x 347 mm",
+  },
+
+  {
+    title: "Weight in air / total system weight",
+    subTitle: "25 kg / 100 kg",
+  },
+
+  {
+    title: "Thrusters",
+    subTitle:
+      "4 magnetically coupled brushless DC motors\nHorizontal: 2x thrusters, 48 VDC 200W\nVertical: 2x thruster, 48 VDC 200W",
+  },
+
+  {
+    title: "Cruising speed (forward)",
+    subTitle: "up to 4 knots",
+  },
+
+  {
+    title: "Lateral speed (optional)",
+    subTitle: "up to 0.5 knots",
+  },
+
+  {
+    title: "Thrust Forward",
+    subTitle: "12 kgf",
+  },
+
+  {
+    title: "Thrust Vertical",
+    subTitle: "10 kgf",
+  },
+
+  {
+    title: "Payload",
+    subTitle: "5 kg",
+  },
+
+  {
+    title: "Vehicle Protection",
+    subTitle: "Polypropylene frame",
+  },
+];
+
+export const tetherItemsPro = [
+  {
+    title: "Max. tether length",
+    subTitle: "400 m",
+  },
+
+  {
+    title: "Cable diameter",
+    subTitle: "10 mm",
+  },
+
+  {
+    title: "Breaking Strength",
+    subTitle: "200 kg",
+  },
+
+  {
+    title: "Weight in Air",
+    subTitle: "7 kg/100 m",
+  },
+
+  {
+    title: "Weight in Fresh Water",
+    subTitle: "Neutrally Buoyant",
+  },
+
+  {
+    title: "Type",
+    subTitle: "Multicore tether with Kevlar wires",
+  },
+
+  {
+    title: "Max. Working Load",
+    subTitle: "60 kg",
+  },
+];
+
+export const cameraSystemItemsPro = [
+  {
+    title: "Camera Model",
+    subTitle: "Sony Super HAD 2 CCD",
+  },
+
+  {
+    title: "Camera resolution",
+    subTitle: "700 TV Lines",
+  },
+
+  {
+    title: "Image Sensor",
+    subTitle: '1/3" Interline Transfer CCD',
+  },
+
+  {
+    title: "Mini Illumination",
+    subTitle: "0.1 lux (0.01 - b/w camera)",
+  },
+
+  {
+    title: "Lens",
+    subTitle: "3.6 mm/F2.0",
+  },
+
+  {
+    title: "Iris Control",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Focus",
+    subTitle: "Auto",
+  },
+
+  {
+    title: "Field of View (FOV)",
+    subTitle: "66º",
+  },
+
+  {
+    title: "Camera Tilt",
+    subTitle: "+/- 50º",
+  },
+];
+
+export const lightingSystemItemsPro = [
+  {
+    title: "Light Source",
+    subTitle: "White ultra-bright LEDs",
+  },
+
+  {
+    title: "Number of LEDs",
+    subTitle: "10x",
+  },
+
+  {
+    title: "Power",
+    subTitle: "4x8 watts, 6x1 watts",
+  },
+
+  {
+    title: "Luminous Flux",
+    subTitle: "6000 lumen",
+  },
+
+  {
+    title: "Beam Angle",
+    subTitle: "105º each",
+  },
+
+  {
+    title: "Colour Temperature",
+    subTitle: "5600-6000º Kelvin",
+  },
+
+  {
+    title: "Control",
+    subTitle: "Variable intensity",
+  },
+];
+
+export const telemetrySystemPro = [
+  {
+    title: "Sensors",
+    subTitle: "Compass and Depth sensors",
+  },
+
+  {
+    title: "Teletext",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-guide mode",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Auto-depth mode",
+    subTitle: "Yes",
+  },
+];
+
+export const surfaceControlUnitItemsPro = [
+  {
+    title: "Power supply",
+    subTitle: "100-240 VAC @ 2000 W, 60-50 Hz",
+  },
+
+  {
+    title: "Recommended Input Voltage",
+    subTitle: "220 VAC",
+  },
+
+  {
+    title: "Power output",
+    subTitle: "360 VDC",
+  },
+
+  {
+    title: "Monitor",
+    subTitle: '15" LCD',
+  },
+
+  {
+    title: "Control Panel System",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "ON-Screen Display",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "Navigation system",
+    subTitle: "Joystick",
+  },
+
+  {
+    title: "DVR",
+    subTitle: "Yes",
+  },
+
+  {
+    title: "System Protection",
+    subTitle: "Full system packed in 3 high-performance waterproof cases",
+  },
+];
+
+export const systemSetItemsPro = [
+  "GNOM Pro submersible (operating depth up to 300m)",
+  "4 magnetically coupled thrusters. 2 horizontal, 2 vertical",
+  "Tether 10 mm, 200 m (up to 400)",
+  "Compass with auto-heading mode (data on screen overlay)",
+  "Depth sensor (auto-depth mode)",
+  "2 color videocameras (front and rear)",
+  "Camera tilt servo ±50°",
+  "Lights (front and rear) with tilt servo",
+  'LCD TV monitor 15"',
+  "Manipulator 1 or 2 functions (option)",
+  "Sector scan sonar (option)",
+  "USBL positioning system (option)",
+  "Hand reel with slip ring connector",
+  "Surface control/power unit",
+  "Protective polypropylene frame with buoyant module",
+  "3 cases",
+  "Joystick",
+  "Cable connectors set",
+  "Repair kit",
+  "User's manual",
+];
