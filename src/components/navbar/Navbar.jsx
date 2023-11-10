@@ -45,11 +45,11 @@ const Navbar = () => {
           background: isScrolled ? "gray" : "transparent",
           position: "fixed",
           width: "100%",
-          top: isScrolled ? 0 : "50px",
+          top: isScrolled ? 0 : { lg: "50px", md: "50px", sm: 0, xs: 0 },
           borderRadius: 0,
           height: 70,
-          alignItems: "center",
           display: "flex",
+          alignItems: "center",
           zIndex: 1000,
         }}
       >

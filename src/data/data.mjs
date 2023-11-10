@@ -1329,3 +1329,25 @@ export const systemSetItemsPro = [
 //     pic: "",
 //   },
 // ];
+
+export const equipmentAndchemcistryItems = [
+  {
+    title: "Coiled Tubing",
+    pic: "",
+  },
+
+  {
+    title: "Primary Product Range",
+    pic: "",
+  },
+
+  {
+    title: "Additives",
+    pic: "",
+  },
+
+  {
+    title: "Environment Protection Products",
+    pic: "",
+  },
+];

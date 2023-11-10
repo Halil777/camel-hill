@@ -11,7 +11,7 @@ const Header = () => {
       data-aos-delay="200"
       style={{
         background: "orange",
-        height: "50px",
+
         width: "100%",
         display: "flex",
         alignItems: "center",
@@ -23,7 +23,10 @@ const Header = () => {
           direction="row"
           alignItems="center"
           justifyContent="space-between"
-          sx={{ display: { lg: "flex", md: "flex", sm: "none", xs: "none" } }}
+          sx={{
+            display: { lg: "flex", md: "flex", sm: "none", xs: "none" },
+            height: { lg: "50px", md: "50px", sm: 0, xs: 0 },
+          }}
         >
           <Stack direction="row" alignItems="center" spacing={7}>
             <Stack direction="row" spacing={1} alignItems="center">
