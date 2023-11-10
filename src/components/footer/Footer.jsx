@@ -1,43 +1,10 @@
 import { Container, Grid, Typography, Stack, Box } from "@mui/material";
-import { Dropdown, Space, Menu } from "antd";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import EmailIcon from "@mui/icons-material/Email";
-
-const categories = [
-  { id: "", name: "Home" },
-  { id: "oil-gas", name: "Oil & Gas services" },
-  {
-    id: "equipment-chemistry",
-    name: "Equipment and Chemistry",
-    subcategories: ["Coiled Tubing", "Environment Protection Products"],
-    subcategoriesLinks: ["coiled-tubing", "environment-protection"],
-  },
-  {
-    id: "innovative-technologies",
-    name: "Innovative Technologies",
-    subcategories: [
-      "Tank cleaning technology",
-      "Intratubular Cleaning",
-      "Inspection robots",
-      "Remotely Operated Vehicle",
-    ],
-    subcategoriesLinks: [
-      "tank-cleaning",
-      "intratubular-cleaning",
-      "inspection",
-      "remotedly-operated",
-    ],
-  },
-];
+import { smallNavbarItems } from "../../data/data.mjs";
 
 const Footer = () => {
-  const navigate = useNavigate();
-
-  const handleSubcategoryClick = (categoryLink, subcategoryLink) => {
-    navigate(`/${subcategoryLink}`);
-  };
-
   return (
     <div style={{ background: "#010101" }}>
       <Container>
@@ -58,78 +25,37 @@ const Footer = () => {
               Навигация
             </Typography>
             <Stack spacing={1} mt={3}>
-              {categories.map((linkCategory, index) => {
+              {smallNavbarItems.map((linkCategory, index) => {
                 const delay = 100 + index * 400;
-                if (linkCategory.subcategoriesLinks) {
-                  return (
-                    <Dropdown
-                      key={linkCategory.id}
-                      overlay={
-                        <Menu>
-                          {linkCategory.subcategoriesLinks.map(
-                            (linkSubcategory, subIndex) => (
-                              <Menu.Item key={linkSubcategory}>
-                                <a
-                                  onClick={() =>
-                                    handleSubcategoryClick(
-                                      linkCategory.id,
-                                      linkCategory.subcategoriesLinks[subIndex]
-                                    )
-                                  }
-                                >
-                                  <Typography
-                                    textTransform="capitalize"
-                                    fontSize="15px"
-                                  >
-                                    {linkSubcategory}
-                                  </Typography>
-                                </a>
-                              </Menu.Item>
-                            )
-                          )}
-                        </Menu>
-                      }
-                    >
-                      <a
-                        onClick={(e) => e.preventDefault()}
-                        style={{ cursor: "pointer" }}
-                      >
-                        <Space>
-                          <Typography
-                            data-aos="fade-down"
-                            data-aos-delay={delay}
-                            sx={{ color: "#fff", fontSize: "15px" }}
-                          >
-                            {linkCategory.name}
-                          </Typography>
-                        </Space>
-                      </a>
-                    </Dropdown>
-                  );
-                } else {
-                  return (
-                    <Link
-                      key={linkCategory.id}
-                      to={`/${linkCategory.id}`}
-                      style={{
+                return (
+                  <Link
+                    key={`small_navbar_key${index}`}
+                    to={`/${linkCategory.link}`}
+                    style={{
+                      textDecoration:
+                        location.pathname === `/${linkCategory.link}`
+                          ? "underline"
+                          : "none",
+                      textUnderlineOffset: "7px",
+                    }}
+                  >
+                    <Typography
+                      data-aos="fade-down"
+                      data-aos-delay={delay}
+                      sx={{
+                        fontSize: "15px",
                         textDecoration:
-                          location.pathname === `/${linkCategory.id}`
+                          location.pathname === `/${linkCategory.link}`
                             ? "underline"
                             : "none",
                         color: "#fff",
                         textUnderlineOffset: "7px",
                       }}
                     >
-                      <Typography
-                        sx={{ fontSize: "15px" }}
-                        data-aos="fade-down"
-                        data-aos-delay={delay}
-                      >
-                        {linkCategory.name}
-                      </Typography>
-                    </Link>
-                  );
-                }
+                      {linkCategory.title}
+                    </Typography>
+                  </Link>
+                );
               })}
             </Stack>
           </Grid>

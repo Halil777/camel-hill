@@ -6,12 +6,9 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import Index from "./components/navbar/Index";
 import OilGasServices from "./pages/oilGasServices/OilGasServices";
-import CoiledTubing from "./components/equipment/coiled/CoiledTubing";
-import EnviromentProtection from "./components/equipment/enviroment-protection/EnviromentProtection";
-import Inspection from "./components/innovativeTechnologies/inspection/Inspection";
-import Intratubular from "./components/innovativeTechnologies/intratubular/Intratubular";
-import RemotedlyOperated from "./components/innovativeTechnologies/remotedly-operated/RemotedlyOperated";
-import TankCleaning from "./components/innovativeTechnologies/tank-cleaning/TankCleaning";
+import ConstructionAndEcology from "./pages/constructionAndEcology/ConstructionAndEcology";
+import EquipmentAndChemistry from "./pages/equipment-and-chemistry/EquipmentAndChemistry";
+import InnovativeTechnologies from "./pages/innovative-technolgies/InnovativeTechnologies";
 
 function App() {
   Aos.init({
@@ -27,15 +24,18 @@ function App() {
           <Route path="/" element={<Index />}>
             <Route index element={<Home />} />
             <Route path="/oil-gas" element={<OilGasServices />} />
-            <Route path="/coiled-tubing" element={<CoiledTubing />} />
             <Route
-              path="/environment-protection"
-              element={<EnviromentProtection />}
+              path="/innovative-technologies"
+              element={<InnovativeTechnologies />}
             />
-            <Route path="/inspection" element={<Inspection />} />
-            <Route path="/intratubular-cleaning" element={<Intratubular />} />
-            <Route path="/remotedly-operated" element={<RemotedlyOperated />} />
-            <Route path="/tank-cleaning" element={<TankCleaning />} />
+            <Route
+              path="/equipment-and-chemistry"
+              element={<EquipmentAndChemistry />}
+            />
+            <Route
+              path="/construction-and-ecology"
+              element={<ConstructionAndEcology />}
+            />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -8,46 +8,12 @@ import {
   Drawer,
 } from "@mui/material";
 import Language from "../../language/Language";
-import { Dropdown, Space, Menu } from "antd";
-import { useNavigate, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import { smallNavbarItems } from "../../data/data.mjs";
 
-const categories = [
-  { id: "", name: "Home" },
-
-  { id: "oil-gas", name: "Oil & Gas services" },
-  {
-    id: "equipment-chemistry",
-    name: "Equipment and Chemistry",
-    subcategories: [
-      "Coiled Tubing",
-      "Additives",
-      "Environment Protection Products",
-    ],
-    subcategoriesLinks: ["coiled-tubing", "environment-protection"],
-  },
-  {
-    id: "innovative-technologies",
-    name: "Innovative Technologies",
-    subcategories: [
-      "Tank cleaning technology",
-      "Intratubular Cleaning",
-      "Inspection robots",
-      "Remotely Operated Vehicle",
-    ],
-    subcategoriesLinks: [
-      "tank-cleaning",
-      "intratubular-cleaning",
-      "inspection",
-      "remotedly-operated",
-    ],
-  },
-];
-
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const navigate = useNavigate();
   const location = useLocation();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -70,10 +36,6 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const handleSubcategoryClick = (categoryLink, subcategoryLink) => {
-    navigate(`/${subcategoryLink}`);
-  };
 
   return (
     <>
@@ -101,101 +63,37 @@ const Navbar = () => {
             <Stack direction="row" alignItems="center" spacing={5}>
               <img src="./images/logo.png" alt="Logo" />
               <Stack direction="row" spacing={3}>
-                {categories.map((linkCategory, index) => {
+                {smallNavbarItems.map((linkCategory, index) => {
                   const delay = 100 + index * 400;
-                  if (linkCategory.subcategoriesLinks) {
-                    return (
-                      <Dropdown
-                        key={linkCategory.id}
-                        overlay={
-                          <Menu>
-                            {linkCategory.subcategoriesLinks.map(
-                              (linkSubcategory, subIndex) => (
-                                <Menu.Item key={linkSubcategory}>
-                                  <a
-                                    onClick={() =>
-                                      handleSubcategoryClick(
-                                        linkCategory.id,
-                                        linkCategory.subcategoriesLinks[
-                                          subIndex
-                                        ]
-                                      )
-                                    }
-                                  >
-                                    <Typography
-                                      textTransform="capitalize"
-                                      fontSize="15px"
-                                      sx={{
-                                        textDecoration:
-                                          location.pathname ===
-                                          `/${linkCategory.id}/${linkCategory.subcategoriesLinks[subIndex]}`
-                                            ? "underline"
-                                            : "none",
-                                      }}
-                                    >
-                                      {linkSubcategory}
-                                    </Typography>
-                                  </a>
-                                </Menu.Item>
-                              )
-                            )}
-                          </Menu>
-                        }
-                      >
-                        <a
-                          onClick={(e) => e.preventDefault()}
-                          style={{ cursor: "pointer" }}
-                        >
-                          <Space>
-                            <Typography
-                              data-aos="fade-down"
-                              data-aos-delay={delay}
-                              sx={{
-                                color: "#fff",
-                                fontSize: "15px",
-                                textDecoration:
-                                  location.pathname === `/${linkCategory.id}`
-                                    ? "underline"
-                                    : "none",
-                              }}
-                            >
-                              {linkCategory.name}
-                            </Typography>
-                          </Space>
-                        </a>
-                      </Dropdown>
-                    );
-                  } else {
-                    return (
-                      <Link
-                        key={linkCategory.id}
-                        to={`/${linkCategory.id}`}
-                        style={{
+                  return (
+                    <Link
+                      key={`small_navbar_key${index}`}
+                      to={`/${linkCategory.link}`}
+                      style={{
+                        textDecoration:
+                          location.pathname === `/${linkCategory.link}`
+                            ? "underline"
+                            : "none",
+                        textUnderlineOffset: "7px",
+                      }}
+                    >
+                      <Typography
+                        data-aos="fade-down"
+                        data-aos-delay={delay}
+                        sx={{
+                          fontSize: "15px",
                           textDecoration:
-                            location.pathname === `/${linkCategory.id}`
+                            location.pathname === `/${linkCategory.link}`
                               ? "underline"
                               : "none",
                           color: "#fff",
                           textUnderlineOffset: "7px",
                         }}
                       >
-                        <Typography
-                          sx={{
-                            fontSize: "15px",
-                            textDecoration:
-                              location.pathname === `/${linkCategory.id}`
-                                ? "underline"
-                                : "none",
-                            textUnderlineOffset: "7px",
-                          }}
-                          data-aos="fade-down"
-                          data-aos-delay={delay}
-                        >
-                          {linkCategory.name}
-                        </Typography>
-                      </Link>
-                    );
-                  }
+                        {linkCategory.title}
+                      </Typography>
+                    </Link>
+                  );
                 })}
               </Stack>
             </Stack>

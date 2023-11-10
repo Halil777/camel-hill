@@ -141,44 +141,28 @@ export const tubotItems = [
 
 export const smallNavbarItems = [
   {
-    id: 1,
     title: "Home",
     link: "",
   },
 
   {
-    id: 2,
+    title: "Construction and Ecology",
+    link: "construction-and-ecology",
+  },
+
+  {
     title: "Oil & Gas services",
     link: "oil-gas",
   },
-
   {
-    id: 3,
-    title: "Coiled Tubing",
-    link: "coiled-tubing",
+    title: "Equipment and Chemistry",
+    link: "equipment-and-chemistry",
   },
 
   {
-    id: 4,
-    title: "Environment Protection",
-    link: "environment-protection",
+    title: "Innovative Technologies",
+    link: "innovative-technologies",
   },
-
-  {
-    id: 5,
-    title: "Tank Cleaning",
-    link: "tank-cleaning",
-  },
-
-  {
-    id: 6,
-    title: "Intratubular Cleaning",
-    link: "intratubular-cleaning",
-  },
-
-  { id: 7, title: "Inspection", link: "inspection" },
-
-  { id: 8, title: "Remotedly Operated", link: "remotedly-operated" },
 ];
 
 export const operatedVehileItems = [
@@ -1338,3 +1322,10 @@ export const systemSetItemsPro = [
   "Repair kit",
   "User's manual",
 ];
+
+// export const technologyTypesItems = [
+//   {
+//     title: "Tank Cleaning Technology",
+//     pic: "",
+//   },
+// ];

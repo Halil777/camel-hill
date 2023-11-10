@@ -1,5 +1,3 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 import { partnersItems } from "../../data/data";
 import { Stack, Typography, Divider, Grid } from "@mui/material";
 
@@ -21,35 +19,18 @@ const Partners = () => {
           </Typography>
         </Grid>
         <Grid item lg={8} md={8} sm={6} xs={12}>
-          <Carousel
-            showStatus={false} // Hide status indicators (dots)
-            showArrows={false} // Show arrows for navigation
-            showThumbs={false} // Hide thumbnail indicators (dots)
-            autoPlay={true}
-            autoFocus
-            infiniteLoop
-            interval={5000}
-            swipeable
-            transitionTime={2000}
-            emulateTouch // Emulate touch behavior for desktops
-            centerMode={true} // Enable center mode
-            centerSlidePercentage={33.33} // Show 3 items at a time
-            showIndicators={false}
-          >
+          <Stack direction="row" justifyContent="space-between">
             {partnersItems.map((item, i) => (
-              <div key={`home_carousel_items_key${i}`}>
-                <Stack spacing={4} direction="row">
-                  <img
-                    src={item.pic}
-                    alt={item.id}
-                    style={{
-                      width: "100px",
-                    }}
-                  />
-                </Stack>
-              </div>
+              <img
+                key={`home_carousel_items_key${i}`}
+                src={item.pic}
+                alt={item.id}
+                style={{
+                  width: "100px",
+                }}
+              />
             ))}
-          </Carousel>
+          </Stack>
         </Grid>
       </Grid>
       <Divider sx={{ height: "30px" }} />

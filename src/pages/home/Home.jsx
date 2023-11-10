@@ -1,33 +1,13 @@
-import { useState, useEffect } from "react";
 import { Stack, IconButton, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import back from "../../home/back.jpg";
 import back1 from "../../home/home1.jpeg";
-import back2 from "../../home/back1.png";
-import back3 from "../../home/back2.jpg";
-import Partners from "../../pages/partners/Partners";
 import WhoWeAre from "../../components/home/WhoWeAre";
-import InnovativeTechnologies from "../../components/home/InnovativeTechnologies";
 
 const Home = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const images = [back, back1, back2, back3];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImage((currentImage + 1) % images.length);
-    }, 4000);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, [currentImage, images]);
-
   const backgroundImageStyle = {
     paddingTop: 150,
-    background: `url(${images[currentImage]}) center/cover no-repeat`,
+    background: `url(${back1}) center/cover no-repeat`,
     height: "100vh",
-    transition: "background-image 2s ease-in-out",
   };
 
   return (
@@ -77,21 +57,17 @@ const Home = () => {
           sx={{
             position: "absolute",
             width: "100%",
-            bottom: 50,
+            bottom: 45,
           }}
           justifyContent="center"
           alignItems="center"
         >
           <IconButton className="motion-icon-button">
-            <ExpandMoreIcon sx={{ color: "#fff", fontSize: "30px" }} />
+            <ExpandMoreIcon sx={{ color: "#000", fontSize: "30px" }} />
           </IconButton>
         </Stack>
       </div>
-      <Container>
-        <Partners />
-      </Container>
       <WhoWeAre />
-      <InnovativeTechnologies />
     </>
   );
 };

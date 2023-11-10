@@ -1,94 +1,126 @@
-import { Container, Grid, Stack, Typography, Box } from "@mui/material";
-import CheckIcon from "@mui/icons-material/Check";
+import {
+  Container,
+  Grid,
+  Typography,
+  Card,
+  CardMedia,
+  CardActionArea,
+  CardContent,
+} from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const WhoWeAre = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Container>
-        <Grid container spacing={5} alignItems="center">
-          <Grid
-            item
-            lg={7}
-            md={7}
-            sm={12}
-            xs={12}
-            data-aos="fade-right"
-            data-aos-delay="400"
-          >
-            <Box
-              p={3}
+        <Typography variant="h3" mt={6} align="center">
+          Who We Are
+        </Typography>
+        <Typography align="center" mt={2} variant="h6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis esse
+          qui tempore, reiciendis, a deserunt et ut placeat ex adipisci
+          reprehenderit magni doloremque pariatur consequuntur? Id magnam
+          officiis cum.
+        </Typography>
+        <Grid container spacing={3} mt={2}>
+          <Grid item lg={3} md={3} sm={6} xs={12}>
+            <Card
+              onClick={() => navigate("/construction-and-ecology")}
               sx={{
-                background: "url(./images/line.avif)",
-                backgroundSize: "100% 100%",
-                height: "70vh",
-                width: "100%",
-                boxShadow: "2px 2px 5px rgba(0,0,0,0.4)",
-                borderRadius: 4,
-                transition: "0.9s ease",
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
                 "&:hover": {
-                  boxShadow: "3px 3px 7px rgba(0,0,0,0.9)",
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
                 },
               }}
             >
-              <Stack spacing={3}>
-                <Typography variant="h5" fontWeight={700}>
-                  Who We Are
-                </Typography>
-                <Typography variant="h3" fontWeight={700}>
-                  Providing affordable and reliable energy
-                </Typography>
-                <Typography color="gray">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
-                </Typography>
-              </Stack>
-              <Stack mt={5} spacing={2} pl={7}>
-                <Stack direction="row" spacing={2}>
-                  <CheckIcon sx={{ color: "green" }} />
-                  <Typography
-                    sx={{ fontSize: "18px", fontWeight: 700, color: "gray" }}
-                  >
-                    Clean energy for a bright future
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="200"
+                  image="./who/who1.png"
+                  alt="src"
+                />
+                <CardContent>
+                  <Typography align="center">
+                    Construction and Ecology
                   </Typography>
-                </Stack>
-                <Stack direction="row" spacing={2}>
-                  <CheckIcon sx={{ color: "green" }} />
-                  <Typography
-                    sx={{ fontSize: "18px", fontWeight: 700, color: "gray" }}
-                  >
-                    Sustainable development
-                  </Typography>
-                </Stack>
-                <Stack direction="row" spacing={2}>
-                  <CheckIcon sx={{ color: "green" }} />
-                  <Typography
-                    sx={{ fontSize: "18px", fontWeight: 700, color: "gray" }}
-                  >
-                    Improving access to energy
-                  </Typography>
-                </Stack>
-              </Stack>
-            </Box>
+                </CardContent>
+              </CardActionArea>
+            </Card>
           </Grid>
-          <Grid
-            item
-            lg={5}
-            md={5}
-            sm={12}
-            xs={12}
-            data-aos="fade-left"
-            data-aos-delay="400"
-          >
-            <img
-              src="./images/whoWeAre.jpg"
-              alt="who we are"
-              style={{
-                width: "100%",
-                borderRadius: "12px",
-                boxShadow: "2px 2px 5px rgba(0,0,0,0.4)",
+          <Grid item lg={3} md={3} sm={6} xs={12}>
+            <Card
+              onClick={() => navigate("/oil-gas")}
+              sx={{
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                "&:hover": {
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
+                },
               }}
-            />
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="200"
+                  image="./who/who3.jpg"
+                  alt="src"
+                />
+                <CardContent>
+                  <Typography align="center">Services</Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+          <Grid item lg={3} md={3} sm={6} xs={12}>
+            <Card
+              onClick={() => navigate("/equipment-and-chemistry")}
+              sx={{
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                "&:hover": {
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
+                },
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="200"
+                  image="./who/who2.jpg"
+                  alt="src"
+                />
+                <CardContent>
+                  <Typography align="center">
+                    Equipment and Chemistry
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+          <Grid item lg={3} md={3} sm={6} xs={12}>
+            <Card
+              onClick={() => navigate("/innovative-technologies")}
+              sx={{
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                "&:hover": {
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
+                },
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="200"
+                  image="./who/who4.jpg"
+                  alt="src"
+                />
+                <CardContent>
+                  <Typography align="center">
+                    Innovative Technologies
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
           </Grid>
         </Grid>
       </Container>

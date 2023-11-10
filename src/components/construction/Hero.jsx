@@ -1,29 +1,10 @@
-import { useState, useEffect } from "react";
-
 import { Container, Typography, Box, Stack } from "@mui/material";
 
 const Hero = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-
-  const back = "./construction/cons1.webp";
-  const back1 = "./construction/cons2.jpg";
   const back2 = "./construction/cons3.jpeg";
-  const back3 = "./construction/cons4.jpg";
-
-  const images = [back, back1, back2, back3];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImage((currentImage + 1) % images.length);
-    }, 4000);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, [currentImage, images]);
 
   const backgroundImageStyle = {
-    background: `url(${images[currentImage]}) center/cover no-repeat`,
+    background: `url(${back2}) center/cover no-repeat`,
     height: "100vh",
     backgroundSize: "100% 100vh", // Add this line to control the image size
     transition: "background-image 2s ease-in-out",

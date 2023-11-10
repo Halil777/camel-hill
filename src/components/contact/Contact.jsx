@@ -5,7 +5,6 @@ import {
   Box,
   Button,
   TextField,
-  Stack,
 } from "@mui/material";
 import {
   YMaps,
@@ -16,15 +15,16 @@ import {
   RulerControl,
   GeolocationControl,
 } from "@pbe/react-yandex-maps";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from "react-responsive-carousel";
 import { partnersItems } from "../../data/data";
+import Partners from "../../pages/partners/Partners";
 
 const Contact = () => {
   return (
     <div style={{ marginTop: "100px" }}>
       <Container>
-        <Carousel
+        {/* <Carousel
           showStatus={false} // Hide status indicators (dots)
           showArrows={false} // Show arrows for navigation
           showThumbs={false} // Hide thumbnail indicators (dots)
@@ -52,7 +52,8 @@ const Contact = () => {
               </Stack>
             </div>
           ))}
-        </Carousel>
+        </Carousel> */}
+        <Partners />
       </Container>
       <Box
         sx={{

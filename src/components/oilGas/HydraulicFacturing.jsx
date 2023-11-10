@@ -5,10 +5,11 @@ import {
   CardContent,
   CardMedia,
   Container,
-  Grid,
   Stack,
   Typography,
 } from "@mui/material";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 import { useState } from "react";
 
 const HydraulicFracturing = () => {
@@ -78,22 +79,6 @@ const HydraulicFracturing = () => {
       pic: "./oil/hydra7.jpg",
     },
     {
-      title: "Drilling, Overhaul, and Reconstruction",
-      subtitle: "Maintaining and Enhancing Wells",
-      description:
-        "Our services include drilling, overhaul, and reconstruction of wells at facilities, ensuring the maintenance and enhancement of your oil and gas assets.",
-      showDescription: false,
-      pic: "./oil/hydra8.jpg",
-    },
-    {
-      title: "Plant Fleet",
-      subtitle: "Cutting-Edge Equipment",
-      description:
-        "Our plant fleet comprises advanced equipment, including UPA-60, UPA-60/80, UPA-100, and MBU-160, ensuring efficiency and reliability in your drilling and extraction operations.",
-      showDescription: false,
-      pic: "./oil/hydra9.jpg",
-    },
-    {
       title: "Drilling Crews for Production and Sidetracking",
       subtitle: "Experienced Teams",
       description:
@@ -132,16 +117,30 @@ const HydraulicFracturing = () => {
         Exploring Hydraulic Fracturing, Drilling, and Equipment
       </Typography>
 
-      <Grid container spacing={4} mt={5}>
+      <Carousel
+        showStatus={false} // Hide status indicators (dots)
+        showArrows={false} // Show arrows for navigation
+        showThumbs={false} // Hide thumbnail indicators (dots)
+        autoPlay={true}
+        autoFocus
+        infiniteLoop
+        interval={5000}
+        swipeable
+        transitionTime={2000}
+        emulateTouch // Emulate touch behavior for desktops
+        centerMode={true} // Enable center mode
+        centerSlidePercentage={33.3}
+        showIndicators={false}
+      >
         {cardData.map((item, index) => (
-          <Grid item lg={4} md={4} sm={6} xs={12} key={index}>
+          <div key={index} style={{ marginTop: "80px" }}>
             <Card
               data-aos="fade-left"
               data-aos-delay="500"
               sx={{
                 height: "100%",
                 minHeight: "400px",
-                pb: 3,
+                ml: 5,
                 "&:hover": {
                   boxShadow: "2px 2px 5px rgba(0,0,0,0.6)",
                 },
@@ -153,6 +152,7 @@ const HydraulicFracturing = () => {
                   height="250"
                   image={item.pic}
                   alt={item.title}
+                  width={"100%"}
                 />
                 <CardContent>
                   <Stack height={60}>
@@ -187,9 +187,9 @@ const HydraulicFracturing = () => {
                 </CardContent>
               </CardActionArea>
             </Card>
-          </Grid>
+          </div>
         ))}
-      </Grid>
+      </Carousel>
     </Container>
   );
 };
