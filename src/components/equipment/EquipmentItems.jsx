@@ -13,7 +13,16 @@ const EquipmentItems = () => {
   return (
     <div>
       <Container>
-        <Grid container spacing={4} mt={10}>
+        <Typography mt={8} align="center" variant="h3">
+          Equipment and Chemistry
+        </Typography>
+        <Typography align="center" variant="h6" mt={2}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi
+          sint pariatur quaerat et tempora ab nisi, itaque architecto assumenda
+          ipsam nemo ducimus quisquam iusto inventore harum expedita repellendus
+          beatae.
+        </Typography>
+        <Grid container spacing={4} mt={5}>
           {equipmentAndchemcistryItems.map((item, i) => (
             <Grid
               key={`equipmentAndchemcistryItems_key_${i}`}
@@ -25,7 +34,7 @@ const EquipmentItems = () => {
             >
               <Card
                 sx={{
-                  height: 280,
+                  height: 320,
                   boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
                   "&:hover": {
                     boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
@@ -40,7 +49,9 @@ const EquipmentItems = () => {
                     alt={item.title}
                   />
                   <CardContent>
-                    <Typography align="center">{item.title}</Typography>
+                    <Typography pb={3} align="center">
+                      {item.title}
+                    </Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>

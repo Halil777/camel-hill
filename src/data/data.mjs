@@ -1323,12 +1323,43 @@ export const systemSetItemsPro = [
   "User's manual",
 ];
 
-// export const technologyTypesItems = [
-//   {
-//     title: "Tank Cleaning Technology",
-//     pic: "",
-//   },
-// ];
+export const innovativeTechnologiesItems = [
+  {
+    title: "Tank Cleaning Technology",
+    pic: "",
+    description:
+      "Mobile autonomous robotic complex for cleaning tanks, oilfield and petrochemical equipment",
+  },
+
+  {
+    title: "Intratubular Cleaning Technology",
+    pic: "",
+    description:
+      "Intratubular robotic systems for non-destructive testing and cleaning of complex branched pipeline sections. The Tubot robotic system is designed to assess the current technical condition of pipelines to prevent accidents, human casualties and damage to the environment.",
+  },
+
+  {
+    title: "Inspection Robots",
+    pic: "",
+    description:
+      "Founded in 2016, Unitree Robotics specializes in the research and development, production and sales of high-performance industrial-grade four-legged robots. Equipped with GPS, robotic arm, lidar and other instruments and test equipment, they can perform a range of jobs such as patrol inspection, reconnaissance, material transportation, etc.",
+  },
+
+  {
+    title: "Remotedly Operated Vehicle",
+    pic: "",
+    description: [
+      "- Oceanography, scientific research",
+      "- Hydroelectric power plants and dams",
+      "- Ship and platform inspection",
+      "- Search and rescue",
+      "- Diving",
+      "- Underwater speleology",
+      "- Fisheries and fishing",
+      "- Oil extraction industry",
+    ],
+  },
+];
 
 export const equipmentAndchemcistryItems = [
   {
