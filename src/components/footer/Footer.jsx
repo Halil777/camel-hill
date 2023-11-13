@@ -88,7 +88,7 @@ const Footer = () => {
                   +993 12 46-83-54
                 </Typography>
               </Stack>
-              <Stack
+              {/* <Stack
                 direction="row"
                 data-aos="fade-down"
                 data-aos-delay="500"
@@ -111,7 +111,7 @@ const Footer = () => {
                 <Typography sx={{ color: "#fff", fontSize: "15px" }}>
                   +993 12 46-83-56
                 </Typography>
-              </Stack>
+              </Stack> */}
               <Stack
                 direction="row"
                 data-aos="fade-down"
