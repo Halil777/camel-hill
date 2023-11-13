@@ -1,5 +1,5 @@
 const Hero = () => {
-  const back = "./equipment/back.jpeg";
+  const back = "./equipment/back2.jpg";
 
   const backgroundImageStyle = {
     paddingTop: 150,

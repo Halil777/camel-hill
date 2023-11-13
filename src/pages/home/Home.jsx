@@ -1,9 +1,11 @@
 import { Stack, IconButton, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import back1 from "../../home/home1.jpeg";
+// import back1 from "../../home/home1.jpeg";
 import WhoWeAre from "../../components/home/WhoWeAre";
 
 const Home = () => {
+  const back1 = "./oil/oilBack2.jpg";
+
   const backgroundImageStyle = {
     paddingTop: 150,
     background: `url(${back1}) center/cover no-repeat`,
@@ -12,11 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <div
-        style={backgroundImageStyle}
-        data-aos="fade-down"
-        data-aos-delay="400"
-      >
+      <div style={backgroundImageStyle}>
         <Container>
           <Stack spacing={2}>
             <Stack direction="row" spacing={3}>

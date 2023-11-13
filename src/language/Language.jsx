@@ -62,6 +62,7 @@ const Language = () => {
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
+        MenuProps={{ disableScrollLock: false }}
         MenuListProps={{
           "aria-labelledby": "basic-button",
         }}

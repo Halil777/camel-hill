@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import EmailIcon from "@mui/icons-material/Email";
 import { smallNavbarItems } from "../../data/data.mjs";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Footer = () => {
   return (
@@ -123,10 +124,22 @@ const Footer = () => {
                   info@duyelidepe.com
                 </Typography>
               </Stack>
+              <Stack
+                direction="row"
+                data-aos="fade-down"
+                data-aos-delay="600"
+                // alignItems="center"
+                spacing={1}
+              >
+                <LocationOnIcon sx={{ color: "#fff" }} />
+                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
+                  Ashgabat ş. Türkmenistan 1972(Ataturk)street building 82
+                </Typography>
+              </Stack>
             </Stack>
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            <Typography
+            {/* <Typography
               data-aos="fade-left"
               data-aos-delay="400"
               variant="h5"
@@ -139,13 +152,13 @@ const Footer = () => {
               }}
             >
               О Компании
-            </Typography>
-            <Stack spacing={3} mt={3}>
+            </Typography> */}
+            <Stack spacing={3}>
               <Typography
                 color="#fff"
                 data-aos="fade-left"
                 data-aos-delay="400"
-                sx={{ fontSize: "18px" }}
+                sx={{ fontSize: "24px" }}
               >
                 Инновации, технологии, результаты: вместе к бизнесу будущего
               </Typography>

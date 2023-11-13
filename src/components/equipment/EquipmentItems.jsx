@@ -27,14 +27,13 @@ const EquipmentItems = () => {
             <Grid
               key={`equipmentAndchemcistryItems_key_${i}`}
               item
-              lg={3}
-              md={4}
+              lg={6}
+              md={6}
               sm={6}
               xs={12}
             >
               <Card
                 sx={{
-                  height: 320,
                   boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
                   "&:hover": {
                     boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
@@ -44,12 +43,12 @@ const EquipmentItems = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    height="200"
+                    height="300"
                     image={item.pic}
                     alt={item.title}
                   />
                   <CardContent>
-                    <Typography pb={3} align="center">
+                    <Typography pb={3} sx={{ fontSize: "26px" }} align="center">
                       {item.title}
                     </Typography>
                   </CardContent>

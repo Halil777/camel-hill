@@ -1,7 +1,7 @@
 import { Container, Typography, Box, Stack } from "@mui/material";
 
 const Hero = () => {
-  const back2 = "./construction/cons3.jpeg";
+  const back2 = "./construction/cons5.jpg";
 
   const backgroundImageStyle = {
     background: `url(${back2}) center/cover no-repeat`,
@@ -22,7 +22,7 @@ const Hero = () => {
               data-aos="fade-left"
               data-aos-delay="600"
               variant="h3"
-              color="#fff"
+              color="#000"
             >
               Economic Society: Building a Sustainable Future
             </Typography>
@@ -30,7 +30,7 @@ const Hero = () => {
               variant="h6"
               data-aos="fade-right"
               data-aos-delay="600"
-              color="#fff"
+              color="#000"
             >
               Constructing Excellence, Preserving Ecology, and Innovating for
               Tomorrow

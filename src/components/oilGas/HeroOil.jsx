@@ -1,14 +1,10 @@
 import { Container, Typography, Box, Stack } from "@mui/material";
+import back1 from "../../home/home1.jpeg";
 
 const HeroOil = () => {
-  const back1 = "./oil/oil2.jpg";
-
   const backgroundImageStyle = {
     background: `url(${back1}) center/cover no-repeat`,
     height: "100vh",
-    backgroundSize: "100% 100vh",
-    transition: "background-image 2s ease-in-out",
-    overflowX: "none",
   };
   return (
     <>

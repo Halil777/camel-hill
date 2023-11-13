@@ -119,12 +119,12 @@ const HydraulicFracturing = () => {
 
       <Carousel
         showStatus={false} // Hide status indicators (dots)
-        showArrows={false} // Show arrows for navigation
+        showArrows={true} // Show arrows for navigation
         showThumbs={false} // Hide thumbnail indicators (dots)
         autoPlay={true}
         autoFocus
         infiniteLoop
-        interval={5000}
+        interval={3000}
         swipeable
         transitionTime={2000}
         emulateTouch // Emulate touch behavior for desktops

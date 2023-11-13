@@ -26,13 +26,21 @@ const Highlights = () => {
           consectetur? Excepturi, pariatur corrupti.
         </Typography>
         <Grid container spacing={4} mt={5}>
-          <Grid item lg={6} md={6} sm={12} xs={12}>
-            <Card>
+          <Grid item lg={4} md={4} sm={6} xs={12}>
+            <Card
+              sx={{
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                minHeight: 320,
+                "&:hover": {
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
+                },
+              }}
+            >
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="300"
-                  image="./env-protection/cons1.jpg"
+                  height="250"
+                  image="./construction/pic1.png"
                   alt="Construction"
                 />
                 <CardContent>
@@ -63,19 +71,72 @@ const Highlights = () => {
               </CardActionArea>
             </Card>
           </Grid>
-          <Grid item lg={6} md={6} sm={12} xs={12}>
-            <Card>
+          <Grid item lg={4} md={4} sm={6} xs={12}>
+            <Card
+              sx={{
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                minHeight: 320,
+                "&:hover": {
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
+                },
+              }}
+            >
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="300"
-                  image="./env-protection/eco.jpg"
+                  height="250"
+                  image="./equipment/eco5.avif"
                   alt="Construction"
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    Ecology Lorem ipsum dolor sit amet consectetur, adipisicing
-                    elit.
+                    EcologyLorem ipsum dolor sit amet consectetur
+                  </Typography>
+
+                  <Accordion>
+                    <AccordionSummary sx={{ background: "transparent" }}>
+                      <Button sx={{ textTransform: "none" }}>More </Button>
+                    </AccordionSummary>
+                    <AccordionDetails sx={{ background: "#f3f3f3" }}>
+                      <Typography variant="body2">
+                        ENVIRONMENTAL IMPACT ASSESSMENT (EIA) at all stages of
+                        the project: from design to operation and closure.
+                        Applying advanced methods and technologies to assess and
+                        monitor the state of the environment, as well as
+                        offering solutions to reduce and compensate for negative
+                        impacts. Our mission is to promote environmental safety
+                        and sustainable development of production. - Assessment
+                        of workplaces; - Environmental Protection (EP); -
+                        Maximum permissible emissions (MPE); - Development of an
+                        environmental passport;
+                      </Typography>
+                    </AccordionDetails>
+                  </Accordion>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+          <Grid item lg={4} md={4} sm={6} xs={12}>
+            <Card
+              sx={{
+                boxShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                minHeight: 320,
+                "&:hover": {
+                  boxShadow: "4px 4px 6px rgba(0,0,0,0.7)",
+                },
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="250"
+                  image="./equipment/eco6.png"
+                  alt="Construction"
+                />
+                <CardContent>
+                  <Typography mb={3} variant="h6">
+                    Waste Water Treatment Lorem ipsum dolor sit amet
+                    consectetur.
                   </Typography>
 
                   <Accordion>

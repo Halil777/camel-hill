@@ -146,7 +146,7 @@ export const smallNavbarItems = [
   },
 
   {
-    title: "Construction and Ecology",
+    title: "Construction / Ecology  ",
     link: "construction-and-ecology",
   },
 
@@ -155,7 +155,7 @@ export const smallNavbarItems = [
     link: "oil-gas",
   },
   {
-    title: "Equipment and Chemistry",
+    title: "Equipment / Chemistry",
     link: "equipment-and-chemistry",
   },
 
@@ -1326,28 +1326,28 @@ export const systemSetItemsPro = [
 export const innovativeTechnologiesItems = [
   {
     title: "Tank Cleaning Technology",
-    pic: "",
+    pic: "./innovative/item5.jpg",
     description:
       "Mobile autonomous robotic complex for cleaning tanks, oilfield and petrochemical equipment",
   },
 
   {
     title: "Intratubular Cleaning Technology",
-    pic: "",
+    pic: "./innovative/item3.jpg",
     description:
       "Intratubular robotic systems for non-destructive testing and cleaning of complex branched pipeline sections. The Tubot robotic system is designed to assess the current technical condition of pipelines to prevent accidents, human casualties and damage to the environment.",
   },
 
   {
     title: "Inspection Robots",
-    pic: "",
+    pic: "./innovative/item1.jpg",
     description:
       "Founded in 2016, Unitree Robotics specializes in the research and development, production and sales of high-performance industrial-grade four-legged robots. Equipped with GPS, robotic arm, lidar and other instruments and test equipment, they can perform a range of jobs such as patrol inspection, reconnaissance, material transportation, etc.",
   },
 
   {
     title: "Remotedly Operated Vehicle",
-    pic: "",
+    pic: "./innovative/item2.jpg",
     description: [
       "- Oceanography, scientific research",
       "- Hydroelectric power plants and dams",
@@ -1363,22 +1363,22 @@ export const innovativeTechnologiesItems = [
 
 export const equipmentAndchemcistryItems = [
   {
-    title: "Coiled Tubing",
-    pic: "",
+    title: "Equipment ",
+    pic: "./equipment/item1.jpg",
   },
 
   {
-    title: "Primary Product Range",
-    pic: "",
+    title: "Chemistry",
+    pic: "./equipment/item2.jpg",
   },
 
-  {
-    title: "Additives",
-    pic: "",
-  },
+  // {
+  //   title: "Additives",
+  //   pic: "./equipment/item3.",
+  // },
 
-  {
-    title: "Environment Protection Products",
-    pic: "",
-  },
+  // {
+  //   title: "Environment Protection Products",
+  //   pic: "./equipment/item4.",
+  // },
 ];
