@@ -8,33 +8,19 @@ import {
   CardContent,
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const WhoWeAre = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   return (
     <>
       <Container>
         <Typography variant="h3" mt={6} align="center">
-          О НАС
+          {t("aboutUs")}
         </Typography>
         <Typography mt={2} sx={{ fontStyle: "italic" }}>
-          От всего коллектива приветствуем Вас на сайте и выражаем благодарность
-          за интерес, проявленный к нашей компании. ХО «Дуйели Депе» -
-          современная, динамично развивающаяся компания, объединившая в себе
-          высококвалифицированных специалистов с многолетним опытом работы и
-          знаниями в своей области. Начавшая свою деятельность 2021 году в
-          строительстве и оказание услуг по оценке воздействия на окружающую
-          среду (ОВОС) , способствуя устойчивому развитию для таких компаний как
-          Эни Туркменистан , филиал Китайская Национальная Нефтегазовая Компания
-          в Туркменистане, Драгон Ойл и Чалик Энерджи. Сотрудничая с передовыми
-          производителями оборудовании, химии, сервисными компаниями
-          нефтегазовой отрасли и технологическими компаниями производящие
-          инновационные разработки во всех отраслях промышленности позволяет нам
-          предлагать высококачественные продукты, услуги и решение на рынке
-          Туркменистана. В нашей работе мы стараемся найти индивидуальный подход
-          к каждому и нацелены на долговременное и взаимовыгодное
-          сотрудничество. Мы надеемся, что обратившись однажды к нам Вы станете
-          нашим постоянным клиентом.
+          {t("aboutUsText")}
         </Typography>
         <Grid container spacing={3} mt={2}>
           <Grid item lg={3} md={3} sm={6} xs={12}>
@@ -56,7 +42,7 @@ const WhoWeAre = () => {
                 />
                 <CardContent>
                   <Typography align="center">
-                    Строительство / Экология
+                    {t("constructionEcology")}
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -80,7 +66,7 @@ const WhoWeAre = () => {
                   alt="src"
                 />
                 <CardContent>
-                  <Typography align="center">Нефтегазовые услуги</Typography>
+                  <Typography align="center">{t("oilGas")}</Typography>
                 </CardContent>
               </CardActionArea>
             </Card>
@@ -103,7 +89,9 @@ const WhoWeAre = () => {
                   alt="src"
                 />
                 <CardContent>
-                  <Typography align="center">Оборудование / Химия</Typography>
+                  <Typography align="center">
+                    {t("equipmentChemistry")}
+                  </Typography>
                 </CardContent>
               </CardActionArea>
             </Card>
@@ -127,7 +115,7 @@ const WhoWeAre = () => {
                 />
                 <CardContent>
                   <Typography align="center">
-                    Инновационные Технологии
+                    {t("innovativeTechnologies")}
                   </Typography>
                 </CardContent>
               </CardActionArea>

@@ -11,8 +11,10 @@ import Language from "../../language/Language";
 import { Link, useLocation } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import { smallNavbarItems } from "../../data/data.mjs";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -92,7 +94,7 @@ const Navbar = () => {
                           textUnderlineOffset: "7px",
                         }}
                       >
-                        {linkCategory.title}
+                        {t(linkCategory.title)}
                       </Typography>
                     </Link>
                   );
@@ -152,7 +154,7 @@ const Navbar = () => {
                         textUnderlineOffset: "7px",
                       }}
                     >
-                      {linkCategory.title}
+                      {t(linkCategory.title)}
                     </Typography>
                   </Link>
                 ))}

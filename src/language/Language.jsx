@@ -49,7 +49,7 @@ const Language = () => {
         ) : (
           <>
             <img
-              src="./images/uk.svg"
+              src="./images/tm.png"
               style={{ width: "20px", marginRight: 10 }}
               alt="russian flag"
             />
@@ -90,7 +90,7 @@ const Language = () => {
         <MenuItem onClick={() => changeLanguage("tm")}>
           <>
             <img
-              src="./images/uk.svg"
+              src="./images/tm.png"
               style={{ width: "20px", marginRight: 10 }}
               alt="turkmen flag"
             />

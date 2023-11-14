@@ -12,21 +12,19 @@ import {
   AccordionDetails,
 } from "@mui/material";
 import { equipmentAndchemcistryItems } from "../../data/data.mjs";
+import { useTranslation } from "react-i18next";
 
 const EquipmentItems = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Container>
         <Typography mt={8} align="center" variant="h3">
-          Оборудование и Химия
+          {t("chemistryTitle")}
         </Typography>
         <Typography sx={{ fontStyle: "italic" }} mt={2}>
-          При поставках химических реагентах наша главная задача удовлетворения
-          потребностей при строительстве газовых, газоконденсатных и нефтяных
-          скважин различной степени сложности. Широкий спектр реагентов,
-          позволяет решать самые разнообразные задачи в области бурения,
-          освоения, капитального ремонта и ремонтно-восстановительных работ
-          газовых и нефтяных скважин.
+          {t("chemistryDesc1")}
         </Typography>
         <Grid container spacing={4} mt={5}>
           {equipmentAndchemcistryItems.map((item, i) => (
@@ -55,17 +53,17 @@ const EquipmentItems = () => {
                   />
                   <CardContent>
                     <Typography pb={3} sx={{ fontSize: "26px" }} align="center">
-                      {item.title}
+                      {t(item.title)}
                     </Typography>
                     <Accordion>
                       <AccordionSummary sx={{ background: "transparent" }}>
                         <Button sx={{ textTransform: "none" }}>
-                          Подробное
+                          {t("more")}
                         </Button>
                       </AccordionSummary>
                       <AccordionDetails sx={{ background: "#f3f3f3" }}>
                         <Typography variant="body2">
-                          {item.description}
+                          {t(item.description)}
                         </Typography>
                       </AccordionDetails>
                     </Accordion>

@@ -12,23 +12,19 @@ import {
   Button,
 } from "@mui/material";
 import { innovativeTechnologiesItems } from "../../data/data.mjs";
+import { useTranslation } from "react-i18next";
 
 const TechnologyTypes = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Container>
         <Typography mt={8} align="center" variant="h3">
-          Инновационные Технологии
+          {t("innTitle2")}
         </Typography>
         <Typography sx={{ fontStyle: "italic" }} mt={2}>
-          В современном мире инновации являются естественным и незаменимым
-          процессом для существования промышленности. Условия, выстраивающиеся
-          на рынке, говорят о том, что дальнейшее развитие государства и
-          экономики не может обойтись без инновационного пути развития. В связи
-          с этим наша компания предлагает роботизированные технические
-          разработки мировых производителей для повышение конкурентоспособности
-          предприятия. Развитие промышленности сопровождается улучшением ее
-          технологического уровня, повышением экономической эффективности.
+          {t("innDesc1")}
         </Typography>
         <Grid container spacing={4} mt={5}>
           {innovativeTechnologiesItems.map((item, i) => (
@@ -54,24 +50,24 @@ const TechnologyTypes = () => {
                     component="img"
                     height="200"
                     image={item.pic}
-                    alt={item.title}
+                    alt={t(item.title)}
                   />
                   <CardContent>
                     <Typography sx={{ height: 50 }} mb={3}>
-                      {item.title}
+                      {t(item.title)}
                     </Typography>
                     <Accordion>
                       <AccordionSummary sx={{ background: "transparent" }}>
                         <Button sx={{ textTransform: "none" }}>
-                          Подробное
+                          {t("more")}
                         </Button>
                       </AccordionSummary>
                       <AccordionDetails sx={{ background: "#f3f3f3" }}>
                         <Typography align="center" variant="h6" pb={2}>
-                          {item.title}
+                          {t(item.title)}
                         </Typography>
                         <Typography variant="body2">
-                          {item.description}
+                          {t(item.description)}
                         </Typography>
                       </AccordionDetails>
                     </Accordion>

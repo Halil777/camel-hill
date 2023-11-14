@@ -1,7 +1,9 @@
 import { partnersItems } from "../../data/data";
 import { Stack, Typography, Divider, Grid } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const Partners = () => {
+  const { t } = useTranslation();
   return (
     <div
       style={{ marginTop: "60px", marginBottom: "70px" }}
@@ -14,8 +16,7 @@ const Partners = () => {
       <Grid container spacing={3}>
         <Grid item lg={4} md={4} sm={6} xs={12}>
           <Typography sx={{ color: "#0D1E50" }} variant="h6" pb={2}>
-            Партнерство – ключ к совместному успеху, ведь вместе мы создаем не
-            просто связи, а будущее
+            {t("partnership")}
           </Typography>
         </Grid>
         <Grid item lg={8} md={8} sm={6} xs={12}>

@@ -16,8 +16,11 @@ import {
   GeolocationControl,
 } from "@pbe/react-yandex-maps";
 import Partners from "../../pages/partners/Partners";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <div style={{ marginTop: "100px" }}>
       <Container>
@@ -40,7 +43,7 @@ const Contact = () => {
             mb={5}
             color="white"
           >
-            Свяжитесь с нами
+            {t("contactUs")}
           </Typography>
           <Grid container spacing={5}>
             <Grid item lg={6} md={6} sm={12} xs={12}>
@@ -56,7 +59,7 @@ const Contact = () => {
                 <TextField
                   data-aos="fade-right"
                   data-aos-delay="400"
-                  label="Полное имя"
+                  label={t("fullName")}
                   variant="outlined"
                   InputProps={{
                     style: {
@@ -71,7 +74,7 @@ const Contact = () => {
                 <TextField
                   data-aos="fade-right"
                   data-aos-delay="500"
-                  label="Электронная почта"
+                  label={t("email")}
                   variant="outlined"
                   type="email"
                   InputProps={{
@@ -87,7 +90,7 @@ const Contact = () => {
                 <TextField
                   data-aos="fade-right"
                   data-aos-delay="600"
-                  label="Сообщение"
+                  label={t("message")}
                   variant="outlined"
                   multiline
                   rows={4}
@@ -107,7 +110,7 @@ const Contact = () => {
                   size="large"
                   type="submit"
                 >
-                  Отправить
+                  {t("send")}
                 </Button>
               </Box>
             </Grid>

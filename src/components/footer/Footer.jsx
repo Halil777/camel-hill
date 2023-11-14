@@ -4,8 +4,10 @@ import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import EmailIcon from "@mui/icons-material/Email";
 import { smallNavbarItems } from "../../data/data.mjs";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const location = useLocation();
 
   return (
@@ -25,7 +27,7 @@ const Footer = () => {
                 textUnderlineOffset: "7px",
               }}
             >
-              Навигация
+              {t("navigation")}
             </Typography>
             <Stack spacing={1} mt={3}>
               {smallNavbarItems.map((linkCategory, index) => {
@@ -55,7 +57,7 @@ const Footer = () => {
                         textUnderlineOffset: "7px",
                       }}
                     >
-                      {linkCategory.title}
+                      {t(linkCategory.title)}
                     </Typography>
                   </Link>
                 );
@@ -75,7 +77,7 @@ const Footer = () => {
                 textUnderlineOffset: "7px",
               }}
             >
-              Контакты
+              {t("contact")}
             </Typography>
             <Stack spacing={1} mt={3}>
               <Stack
@@ -111,21 +113,20 @@ const Footer = () => {
               >
                 <LocationOnIcon sx={{ color: "#fff" }} />
                 <Typography sx={{ color: "#fff", fontSize: "15px" }}>
-                  {/* Ashgabat ş. Türkmenistan 1972(Ataturk)street building 82 */}
-                  Ашхабад, ул. 1972 (Ататюрк), дом 82.
+                  {t("address")}
                 </Typography>
               </Stack>
             </Stack>
           </Grid>
-          <Grid item lg={4} md={4} sm={6} xs={12}>
+          <Grid item lg={4} md={4} sm={6} xs={12} pb={3}>
             <Stack spacing={3}>
               <Typography
                 color="#fff"
                 data-aos="fade-left"
                 data-aos-delay="400"
-                sx={{ fontSize: "24px" }}
+                sx={{ fontSize: "20px" }}
               >
-                Инновации, технологии, результаты: вместе к бизнесу будущего
+                {t("footerText")}
               </Typography>
               <img
                 src="./images/logo.png"

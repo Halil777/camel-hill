@@ -1,11 +1,15 @@
 import { Container, Typography, Box, Stack } from "@mui/material";
 import back1 from "../../home/home1.jpeg";
+import { useTranslation } from "react-i18next";
 
 const HeroOil = () => {
+  const { t } = useTranslation();
+
   const backgroundImageStyle = {
     background: `url(${back1}) center/cover no-repeat`,
     height: "100vh",
   };
+
   return (
     <>
       <Box sx={backgroundImageStyle}>
@@ -18,7 +22,7 @@ const HeroOil = () => {
                 variant="h3"
                 color="#fff"
               >
-                Добро пожаловать в
+                {t("homeTitle1")}
               </Typography>
               <Typography variant="h3" color="orange">
                 Düýeli Depe
@@ -30,7 +34,7 @@ const HeroOil = () => {
               variant="h3"
               color="#fff"
             >
-              Услуги в области нефти и газа
+              {t("oilTitle")}
             </Typography>
             <Typography
               variant="h6"
@@ -38,7 +42,7 @@ const HeroOil = () => {
               data-aos-delay="600"
               color="#fff"
             >
-              Доставка превосходства в энергетических услугах и инновациях
+              {t("oilSubTitle")}
             </Typography>
           </Stack>
         </Container>

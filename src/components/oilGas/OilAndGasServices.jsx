@@ -8,8 +8,11 @@ import {
   Tooltip,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useTranslation } from "react-i18next";
 
 const OilAndGasServices = () => {
+  const { t } = useTranslation();
+
   const servicesData = {
     "Основные услуги": [
       "Coiled Tubing Technologies",
@@ -106,7 +109,7 @@ const OilAndGasServices = () => {
         data-aos-delay="500"
         gutterBottom
       >
-        Услуги нефти и газа
+        {t("oilGas")}
       </Typography>
 
       <Grid container spacing={2}>

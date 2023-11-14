@@ -1,6 +1,9 @@
 import { Container, Stack, Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   const back = "./innovative/back.jpg";
 
   const backgroundImageStyle = {
@@ -22,7 +25,7 @@ const Hero = () => {
             variant="h3"
             color="#fff"
           >
-            Инновационные Технологии: Лидерство в Прогрессе
+            {t("innTitle")}
           </Typography>
           <Typography
             variant="h6"
@@ -30,8 +33,7 @@ const Hero = () => {
             data-aos-delay="600"
             color="#fff"
           >
-            Разрабатываем и внедряем передовые технологии для оптимизации
-            процессов и создания экологически устойчивого будущего.
+            {t("innSub")}
           </Typography>
         </Stack>
       </Container>

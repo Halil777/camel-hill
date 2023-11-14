@@ -1,8 +1,10 @@
 import { Stack, IconButton, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import WhoWeAre from "../../components/home/WhoWeAre";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
   const back1 = "./oil/oilBack2.jpg";
 
   const backgroundImageStyle = {
@@ -23,7 +25,7 @@ const Home = () => {
                 data-aos-delay="400"
                 color="#fff"
               >
-                Добро пожаловать в
+                {t("homeTitle1")}
               </Typography>
               <Typography variant="h3" color="orange">
                 Düýeli Depe
@@ -35,7 +37,7 @@ const Home = () => {
               data-aos-delay="600"
               color="#fff"
             >
-              Используем инновационные технологии для светлого будущего
+              {t("homeTitle2")}
             </Typography>
           </Stack>
         </Container>

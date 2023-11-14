@@ -10,9 +10,12 @@ import {
 } from "@mui/material";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
 const HydraulicFracturing = () => {
+  const { t } = useTranslation();
+
   const [cardData, setCardData] = useState([
     {
       title: "Стандартное гидроразрывное бурение",
@@ -105,7 +108,7 @@ const HydraulicFracturing = () => {
         align="center"
         color="orange"
       >
-        Услуги нефти и газа
+        {t("oilGas")}
       </Typography>
       <Typography
         data-aos="fade-down"
@@ -113,10 +116,7 @@ const HydraulicFracturing = () => {
         color="gray"
         sx={{ fontStyle: "italic" }}
       >
-        Предлагаемые нами сервисные услуги нефтегазового сектора позволяет
-        предложить широкий спектр возможностей, позволяющих проводить разработку
-        с учетом индивидуальных параметров пластов и условий месторождений,
-        исследовать физические, химические и фильтрационные особенности грунтов.
+        {t("oilDesc1")}
       </Typography>
 
       <Carousel
@@ -181,9 +181,7 @@ const HydraulicFracturing = () => {
                       onClick={() => toggleDescription(index)}
                       variant="outlined"
                     >
-                      {item.showDescription
-                        ? "Скрыть описание"
-                        : "Показать описание"}
+                      {item.showDescription ? t("hideDesc") : t("showDesc")}
                     </Button>
                   </Stack>
                 </CardContent>

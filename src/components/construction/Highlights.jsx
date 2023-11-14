@@ -11,32 +11,19 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const Highlights = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Container>
         <Typography mt={7} variant="h4" align="center">
-          Строительство и Экология
+          {t("constructionEcology")}
         </Typography>
         <Typography mt={1} sx={{ fontStyle: "italic" }}>
-          Наша компания специализируется на строительстве и экологии. Мы
-          придерживаемся принципов качества и безопасности в строительных
-          проектах, строя жилые, коммерческие и промышленные объекты с акцентом
-          на инновационные методы и ответственность перед окружающей средой. В
-          области экологии мы предоставляем такие услуги, как экологическая
-          экспертиза, разработка проектов оценки воздействия на окружающую
-          среду, а также комплексная оценка всех экологических, экономических и
-          социальных параметров природной среды на территории объекта. Наши
-          специалисты проводят мониторинг экологии, выполняют необходимые
-          инженерно-экологические и геологические исследования для изучения
-          влияния проекта на внешнюю среду и расчета природоохранных
-          мероприятий. Кроме того, мы занимаемся технологиями очистки воды,
-          предлагая решения для эффективного использования водных ресурсов и
-          очистки сточных вод. В мире, где вода становится все более важным
-          ресурсом для социально-экономического развития, наша компания
-          стремится предоставить технологии, приносящие пользу как людям, так и
-          природе.
+          {t("ecoDescription")}
         </Typography>
 
         <Grid container spacing={4} mt={5}>
@@ -59,21 +46,17 @@ const Highlights = () => {
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    Строительство
+                    {t("ecoT1")}
                   </Typography>
 
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
-                      <Button sx={{ textTransform: "none" }}>Подробное </Button>
+                      <Button sx={{ textTransform: "none" }}>
+                        {t("more")}{" "}
+                      </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
-                      <Typography variant="body2">
-                        При строительстве мы отличаемся в вопросах качества и
-                        безопасности. Строим под ключ жилые, коммерческие,
-                        промышленные объекты с акцентом на использование
-                        инновационных методов и ответственностью перед
-                        окружающей средой.
-                      </Typography>
+                      <Typography variant="body2">{t("ecoDesc1")}</Typography>
                     </AccordionDetails>
                   </Accordion>
                 </CardContent>
@@ -99,26 +82,17 @@ const Highlights = () => {
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    Экология
+                    {t("ecoT2")}
                   </Typography>
 
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
-                      <Button sx={{ textTransform: "none" }}>Подробное </Button>
+                      <Button sx={{ textTransform: "none" }}>
+                        {t("more")}{" "}
+                      </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
-                      <Typography variant="body2">
-                        Компания оказывает свои услуги по экологической
-                        экспертизе, разработка проекта ОВОС, производит
-                        комплексную оценку всех экологических, экономических,
-                        социальных параметров природной среды на территории
-                        хозяйственного объекта и согласование в экспертизе
-                        проекта. Наши специалисты производят мониторинг экологии
-                        местности, выполняют все необходимые
-                        инженерно-экологические и геологические изыскания для
-                        изучения влияние детальности объекта на внешнюю среду, а
-                        также производят расчет природоохранных мероприятий.
-                      </Typography>
+                      <Typography variant="body2">{t("ecoDesc2")}</Typography>
                     </AccordionDetails>
                   </Accordion>
                 </CardContent>
@@ -144,22 +118,17 @@ const Highlights = () => {
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    Очистка воды
+                    {t("ecoT3")}
                   </Typography>
 
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
-                      <Button sx={{ textTransform: "none" }}>Подробное </Button>
+                      <Button sx={{ textTransform: "none" }}>
+                        {t("more")}{" "}
+                      </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
-                      <Typography variant="body2">
-                        В наши дни, когда вода с каждым днем приобретает все
-                        больше значение социально-экономического развития, на
-                        повестке дня всегда стоит вопрос об эффективном
-                        использовании водных источников и очистки сточных вод.
-                        Компания стремится обеспечить технологиями для
-                        обеспечения пользу людям и природе
-                      </Typography>
+                      <Typography variant="body2">{t("ecoDesc3")}</Typography>
                     </AccordionDetails>
                   </Accordion>
                 </CardContent>

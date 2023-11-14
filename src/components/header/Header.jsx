@@ -2,9 +2,12 @@ import { Container, Stack, Typography } from "@mui/material";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import EmailIcon from "@mui/icons-material/Email";
 import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
+import { useTranslation } from "react-i18next";
 import Language from "../../language/Language";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <div
       data-aos="fade-down"
@@ -39,7 +42,7 @@ const Header = () => {
             </Stack>
             <Stack direction="row" spacing={1} alignItems="center">
               <QueryBuilderIcon />
-              <Typography>Рабочие часы: 08:00 - 17:00</Typography>
+              <Typography>{t("workingHours")}: 08:00 - 17:00</Typography>
             </Stack>
           </Stack>
           <Language />
