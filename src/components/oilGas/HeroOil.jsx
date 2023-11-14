@@ -18,10 +18,10 @@ const HeroOil = () => {
                 variant="h3"
                 color="#fff"
               >
-                Welcome to
+                Добро пожаловать в
               </Typography>
               <Typography variant="h3" color="orange">
-                Duyeli Depe
+                Düýeli Depe
               </Typography>
             </Box>
             <Typography
@@ -30,7 +30,7 @@ const HeroOil = () => {
               variant="h3"
               color="#fff"
             >
-              Oil and Gas Services
+              Услуги в области нефти и газа
             </Typography>
             <Typography
               variant="h6"
@@ -38,7 +38,7 @@ const HeroOil = () => {
               data-aos-delay="600"
               color="#fff"
             >
-              Delivering Excellence in Energy Services and Innovation
+              Доставка превосходства в энергетических услугах и инновациях
             </Typography>
           </Stack>
         </Container>

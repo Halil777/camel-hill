@@ -1,11 +1,13 @@
 import { Container, Grid, Typography, Stack, Box } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import EmailIcon from "@mui/icons-material/Email";
 import { smallNavbarItems } from "../../data/data.mjs";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Footer = () => {
+  const location = useLocation();
+
   return (
     <div style={{ background: "#010101" }}>
       <Container>
@@ -73,7 +75,7 @@ const Footer = () => {
                 textUnderlineOffset: "7px",
               }}
             >
-              Contact
+              Контакты
             </Typography>
             <Stack spacing={1} mt={3}>
               <Stack

@@ -61,7 +61,9 @@ const Navbar = () => {
             sx={{ display: { md: "flex", lg: "flex", sm: "none", xs: "none" } }}
           >
             <Stack direction="row" alignItems="center" spacing={5}>
-              <img src="./images/logo.png" alt="Logo" />
+              <Link to="/">
+                <img src="./images/logo.png" alt="Logo" />
+              </Link>
               <Stack direction="row" spacing={3}>
                 {smallNavbarItems.map((linkCategory, index) => {
                   const delay = 100 + index * 400;

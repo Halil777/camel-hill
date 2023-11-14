@@ -18,13 +18,17 @@ const TechnologyTypes = () => {
     <div>
       <Container>
         <Typography mt={8} align="center" variant="h3">
-          Innovative Technologies
+          Инновационные Технологии
         </Typography>
-        <Typography align="center" variant="h6" mt={2}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi
-          sint pariatur quaerat et tempora ab nisi, itaque architecto assumenda
-          ipsam nemo ducimus quisquam iusto inventore harum expedita repellendus
-          beatae.
+        <Typography align="center" sx={{ fontStyle: "italic" }} mt={2}>
+          В современном мире инновации являются естественным и незаменимым
+          процессом для существования промышленности. Условия, выстраивающиеся
+          на рынке, говорят о том, что дальнейшее развитие государства и
+          экономики не может обойтись без инновационного пути развития. В связи
+          с этим наша компания предлагает роботизированные технические
+          разработки мировых производителей для повышение конкурентоспособности
+          предприятия. Развитие промышленности сопровождается улучшением ее
+          технологического уровня, повышением экономической эффективности.
         </Typography>
         <Grid container spacing={4} mt={5}>
           {innovativeTechnologiesItems.map((item, i) => (

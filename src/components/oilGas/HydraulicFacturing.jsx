@@ -15,74 +15,74 @@ import { useState } from "react";
 const HydraulicFracturing = () => {
   const [cardData, setCardData] = useState([
     {
-      title: "Standard Hydraulic Fracturing",
-      subtitle: "Efficient and Proven Method",
+      title: "Стандартное гидроразрывное бурение",
+      subtitle: "Эффективный и проверенный метод",
       description:
-        "Our standard hydraulic fracturing process is a reliable and efficient method for extracting oil and gas. It involves high-pressure fluid injection to create fractures in the reservoir rock, allowing for the extraction of valuable resources.",
+        "Наш стандартный процесс гидроразрывного бурения - это надежный и эффективный метод добычи нефти и газа. Он включает в себя внедрение жидкости под высоким давлением для создания трещин в породе пласта, что позволяет извлекать ценные ресурсы.",
       showDescription: false,
       pic: "./oil/hydra1.webp",
     },
     {
-      title: "Large Volume Fracturing",
-      subtitle: "Maximizing Production",
+      title: "Большой объем гидроразрывного бурения",
+      subtitle: "Максимизация производства",
       description:
-        "Large volume hydraulic fracturing is a specialized technique designed to optimize production. With the capability to inject high volumes of fluid, we can efficiently access and extract hydrocarbons from deep underground reservoirs.",
+        "Гидроразрыв большого объема - это специализированная техника, разработанная для оптимизации производства. Обладая возможностью внедрения больших объемов жидкости, мы эффективно получаем доступ и извлекаем углеводороды из глубоких подземных месторождений.",
       showDescription: false,
       pic: "./oil/hydra2.jpg",
     },
     {
-      title: "Multistage Hydraulic Fracturing",
-      subtitle: "Optimized Reservoir Stimulation",
+      title: "Многоступенчатое гидроразрывное бурение",
+      subtitle: "Оптимизация стимуляции пласта",
       description:
-        "Our multistage hydraulic fracturing technique involves multiple stages of fracturing to maximize reservoir stimulation and improve oil and gas recovery.",
+        "Наш метод многоступенчатого гидроразрывного бурения включает несколько этапов разрыва для максимизации стимуляции пласта и улучшения добычи нефти и газа.",
       showDescription: false,
       pic: "./oil/hydra3.webp",
     },
     {
-      title: "Foam Fracturing",
-      subtitle: "Reducing Formation Damage",
+      title: "Пенный гидроразрыв",
+      subtitle: "Снижение повреждения пласта",
       description:
-        "Foam fracturing is a method that uses foam to carry proppant into fractures, reducing formation damage and improving the flow of hydrocarbons.",
+        "Пенный гидроразрыв - это метод, использующий пену для транспортировки проппанта в трещины, снижая повреждение пласта и улучшая поток углеводородов.",
       showDescription: false,
       pic: "./oil/hydra4.png",
     },
     {
-      title: "Nitrogen Fracturing",
-      subtitle: "Enhanced Efficiency",
+      title: "Азотный гидроразрыв",
+      subtitle: "Повышенная эффективность",
       description:
-        "Nitrogen fracturing is used to increase the efficiency of hydraulic fracturing by utilizing nitrogen gas as the fracturing fluid, resulting in reduced formation damage and improved oil and gas production.",
+        "Азотный гидроразрыв используется для увеличения эффективности гидроразрывного бурения с использованием азота в качестве рабочей жидкости, что приводит к снижению повреждения пласта и улучшению добычи нефти и газа.",
       showDescription: false,
       pic: "./oil/hydra5.jpeg_v03",
     },
     {
-      title: "Hydrocarbon-Based Fracturing",
-      subtitle: "Environmentally Friendly",
+      title: "Гидроразрыв на основе углеводородов",
+      subtitle: "Экологически чистый метод",
       description:
-        "Our hydrocarbon-based fracturing method uses environmentally friendly hydrocarbons as the fracturing fluid, minimizing environmental impact while maximizing resource extraction.",
+        "Наш метод гидроразрыва на основе углеводородов использует экологически чистые углеводороды в качестве рабочей жидкости, минимизируя воздействие на окружающую среду при максимальной добыче ресурсов.",
       showDescription: false,
       pic: "./oil/hydra6.jpg",
     },
     {
-      title: "MSHF with Composite Plugs (Plug & Perf)",
-      subtitle: "Precise Reservoir Control",
+      title: "Гидроразрыв с композитными пробками (Plug & Perf)",
+      subtitle: "Точный контроль пласта",
       description:
-        "MSHF (Mechanical Specific Hydraulic Fracturing) with composite plugs, commonly known as 'Plug & Perf,' is a technique used for precise reservoir control and optimization of well performance.",
+        "Гидроразрыв с композитными пробками (MSHF) с механическим герметизированным гидроразрывом, также известным как 'Plug & Perf', - это техника, используемая для точного контроля пласта и оптимизации работы скважины.",
       showDescription: false,
       pic: "./oil/hydra1.webp",
     },
     {
-      title: "MSHF on Coiled Tubing with Abrasive Perforation",
-      subtitle: "Efficient and Versatile",
+      title: "MSHF на буровой трубе с абразивным проколом",
+      subtitle: "Эффективность и универсальность",
       description:
-        "MSHF performed on coiled tubing with abrasive or cumulative perforation offers an efficient and versatile method for well intervention and stimulation.",
+        "MSHF, выполненный на буровой трубе с абразивным или кумулятивным проколом, предлагает эффективный и универсальный метод для вмешательства в работу скважины и стимуляции.",
       showDescription: false,
       pic: "./oil/hydra7.jpg",
     },
     {
-      title: "Drilling Crews for Production and Sidetracking",
-      subtitle: "Experienced Teams",
+      title: "Буровые бригады по добыче и боковому бурению",
+      subtitle: "Опытные команды",
       description:
-        "Our experienced drilling crews are specialized in production drilling and sidetracking, providing expertise and efficiency in your drilling projects.",
+        "Наши опытные буровые бригады специализируются на производственном бурении и боковом бурении, предоставляя экспертизу и эффективность в ваших проектах бурения.",
       showDescription: false,
       pic: "./oil/hydra10.png",
     },
@@ -105,16 +105,19 @@ const HydraulicFracturing = () => {
         align="center"
         color="orange"
       >
-        Oil and Gas Services
+        Услуги нефти и газа
       </Typography>
       <Typography
-        variant="h6"
         data-aos="fade-down"
         data-aos-delay="500"
         align="center"
         color="gray"
+        sx={{ fontStyle: "italic" }}
       >
-        Exploring Hydraulic Fracturing, Drilling, and Equipment
+        Предлагаемые нами сервисные услуги нефтегазового сектора позволяет
+        предложить широкий спектр возможностей, позволяющих проводить разработку
+        с учетом индивидуальных параметров пластов и условий месторождений,
+        исследовать физические, химические и фильтрационные особенности грунтов.
       </Typography>
 
       <Carousel

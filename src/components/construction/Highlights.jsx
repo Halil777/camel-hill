@@ -17,14 +17,28 @@ const Highlights = () => {
     <>
       <Container>
         <Typography mt={7} variant="h4" align="center">
-          Construction and Ecology
+          Строительство и Экология
         </Typography>
-        <Typography mt={1} variant="h6" align="center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-          fugiat nobis deleniti laudantium quae qui sit exercitationem autem
-          possimus at odio cumque repudiandae necessitatibus sapiente, amet
-          consectetur? Excepturi, pariatur corrupti.
+        <Typography mt={1} align="center" sx={{ fontStyle: "italic" }}>
+          Наша компания специализируется на строительстве и экологии. Мы
+          придерживаемся принципов качества и безопасности в строительных
+          проектах, строя жилые, коммерческие и промышленные объекты с акцентом
+          на инновационные методы и ответственность перед окружающей средой. В
+          области экологии мы предоставляем такие услуги, как экологическая
+          экспертиза, разработка проектов оценки воздействия на окружающую
+          среду, а также комплексная оценка всех экологических, экономических и
+          социальных параметров природной среды на территории объекта. Наши
+          специалисты проводят мониторинг экологии, выполняют необходимые
+          инженерно-экологические и геологические исследования для изучения
+          влияния проекта на внешнюю среду и расчета природоохранных
+          мероприятий. Кроме того, мы занимаемся технологиями очистки воды,
+          предлагая решения для эффективного использования водных ресурсов и
+          очистки сточных вод. В мире, где вода становится все более важным
+          ресурсом для социально-экономического развития, наша компания
+          стремится предоставить технологии, приносящие пользу как людям, так и
+          природе.
         </Typography>
+
         <Grid container spacing={4} mt={5}>
           <Grid item lg={4} md={4} sm={6} xs={12}>
             <Card
@@ -45,8 +59,7 @@ const Highlights = () => {
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    Construction Lorem ipsum dolor sit amet consectetur,
-                    adipisicing elit.
+                    Строительство
                   </Typography>
 
                   <Accordion>
@@ -55,15 +68,11 @@ const Highlights = () => {
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
                       <Typography variant="body2">
-                        Development of design and estimate documentation,
-                        turnkey construction of buildings. Construction of all
-                        types of objects, such as residential and commercial
-                        buildings, industrial and infrastructure structures.
-                        High level of qualifications and experience in the
-                        construction industry. We also use modern equipment and
-                        materials. We ensure the quality, reliability and safety
-                        of our work. Our goal is to satisfy the needs and
-                        expectations of our customers.
+                        При строительстве мы отличаемся в вопросах качества и
+                        безопасности. Строим под ключ жилые, коммерческие,
+                        промышленные объекты с акцентом на использование
+                        инновационных методов и ответственностью перед
+                        окружающей средой.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -90,7 +99,7 @@ const Highlights = () => {
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    EcologyLorem ipsum dolor sit amet consectetur
+                    Экология
                   </Typography>
 
                   <Accordion>
@@ -99,16 +108,16 @@ const Highlights = () => {
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
                       <Typography variant="body2">
-                        ENVIRONMENTAL IMPACT ASSESSMENT (EIA) at all stages of
-                        the project: from design to operation and closure.
-                        Applying advanced methods and technologies to assess and
-                        monitor the state of the environment, as well as
-                        offering solutions to reduce and compensate for negative
-                        impacts. Our mission is to promote environmental safety
-                        and sustainable development of production. - Assessment
-                        of workplaces; - Environmental Protection (EP); -
-                        Maximum permissible emissions (MPE); - Development of an
-                        environmental passport;
+                        Компания оказывает свои услуги по экологической
+                        экспертизе, разработка проекта ОВОС, производит
+                        комплексную оценку всех экологических, экономических,
+                        социальных параметров природной среды на территории
+                        хозяйственного объекта и согласование в экспертизе
+                        проекта. Наши специалисты производят мониторинг экологии
+                        местности, выполняют все необходимые
+                        инженерно-экологические и геологические изыскания для
+                        изучения влияние детальности объекта на внешнюю среду, а
+                        также производят расчет природоохранных мероприятий.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -135,8 +144,7 @@ const Highlights = () => {
                 />
                 <CardContent>
                   <Typography mb={3} variant="h6">
-                    Waste Water Treatment Lorem ipsum dolor sit amet
-                    consectetur.
+                    Очистка воды
                   </Typography>
 
                   <Accordion>
@@ -145,16 +153,12 @@ const Highlights = () => {
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
                       <Typography variant="body2">
-                        ENVIRONMENTAL IMPACT ASSESSMENT (EIA) at all stages of
-                        the project: from design to operation and closure.
-                        Applying advanced methods and technologies to assess and
-                        monitor the state of the environment, as well as
-                        offering solutions to reduce and compensate for negative
-                        impacts. Our mission is to promote environmental safety
-                        and sustainable development of production. - Assessment
-                        of workplaces; - Environmental Protection (EP); -
-                        Maximum permissible emissions (MPE); - Development of an
-                        environmental passport;
+                        В наши дни, когда вода с каждым днем приобретает все
+                        больше значение социально-экономического развития, на
+                        повестке дня всегда стоит вопрос об эффективном
+                        использовании водных источников и очистки сточных вод.
+                        Компания стремится обеспечить технологиями для
+                        обеспечения пользу людям и природе
                       </Typography>
                     </AccordionDetails>
                   </Accordion>

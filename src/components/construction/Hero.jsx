@@ -16,7 +16,7 @@ const Hero = () => {
         <Container>
           <Stack spacing={2} pt={15}>
             <Typography variant="h4" color="orange">
-              Duyeli Depe
+              Düýeli Depe
             </Typography>
             <Typography
               data-aos="fade-left"
@@ -24,7 +24,7 @@ const Hero = () => {
               variant="h3"
               color="#000"
             >
-              Economic Society: Building a Sustainable Future
+              Экономическое Общество: Строим Устойчивое Будущее
             </Typography>
             <Typography
               variant="h6"
@@ -32,8 +32,7 @@ const Hero = () => {
               data-aos-delay="600"
               color="#000"
             >
-              Constructing Excellence, Preserving Ecology, and Innovating for
-              Tomorrow
+              Строим отличие, сохраняем экологию и инновации для завтра.
             </Typography>
           </Stack>
         </Container>

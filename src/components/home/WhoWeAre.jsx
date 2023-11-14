@@ -15,13 +15,26 @@ const WhoWeAre = () => {
     <>
       <Container>
         <Typography variant="h3" mt={6} align="center">
-          Who We Are
+          О НАС
         </Typography>
-        <Typography align="center" mt={2} variant="h6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis esse
-          qui tempore, reiciendis, a deserunt et ut placeat ex adipisci
-          reprehenderit magni doloremque pariatur consequuntur? Id magnam
-          officiis cum.
+        <Typography align="center" mt={2} sx={{ fontStyle: "italic" }}>
+          От всего коллектива приветствуем Вас на сайте и выражаем благодарность
+          за интерес, проявленный к нашей компании. ХО «Дуйели Депе» -
+          современная, динамично развивающаяся компания, объединившая в себе
+          высококвалифицированных специалистов с многолетним опытом работы и
+          знаниями в своей области. Начавшая свою деятельность 2021 году в
+          строительстве и оказание услуг по оценке воздействия на окружающую
+          среду (ОВОС) , способствуя устойчивому развитию для таких компаний как
+          Эни Туркменистан , филиал Китайская Национальная Нефтегазовая Компания
+          в Туркменистане, Драгон Ойл и Чалик Энерджи. Сотрудничая с передовыми
+          производителями оборудовании, химии, сервисными компаниями
+          нефтегазовой отрасли и технологическими компаниями производящие
+          инновационные разработки во всех отраслях промышленности позволяет нам
+          предлагать высококачественные продукты, услуги и решение на рынке
+          Туркменистана. В нашей работе мы стараемся найти индивидуальный подход
+          к каждому и нацелены на долговременное и взаимовыгодное
+          сотрудничество. Мы надеемся, что обратившись однажды к нам Вы станете
+          нашим постоянным клиентом.
         </Typography>
         <Grid container spacing={3} mt={2}>
           <Grid item lg={3} md={3} sm={6} xs={12}>
@@ -38,7 +51,7 @@ const WhoWeAre = () => {
                 <CardMedia
                   component="img"
                   height="200"
-                  image="./who/who1.png"
+                  image="./who/who1.jpg"
                   alt="src"
                 />
                 <CardContent>
@@ -67,7 +80,7 @@ const WhoWeAre = () => {
                   alt="src"
                 />
                 <CardContent>
-                  <Typography align="center">Services</Typography>
+                  <Typography align="center">Oil & Gas services</Typography>
                 </CardContent>
               </CardActionArea>
             </Card>

@@ -14,13 +14,15 @@ const EquipmentItems = () => {
     <div>
       <Container>
         <Typography mt={8} align="center" variant="h3">
-          Equipment and Chemistry
+          Оборудование и Химия
         </Typography>
-        <Typography align="center" variant="h6" mt={2}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi
-          sint pariatur quaerat et tempora ab nisi, itaque architecto assumenda
-          ipsam nemo ducimus quisquam iusto inventore harum expedita repellendus
-          beatae.
+        <Typography align="center" sx={{ fontStyle: "italic" }} mt={2}>
+          При поставках химических реагентах наша главная задача удовлетворения
+          потребностей при строительстве газовых, газоконденсатных и нефтяных
+          скважин различной степени сложности. Широкий спектр реагентов,
+          позволяет решать самые разнообразные задачи в области бурения,
+          освоения, капитального ремонта и ремонтно-восстановительных работ
+          газовых и нефтяных скважин.
         </Typography>
         <Grid container spacing={4} mt={5}>
           {equipmentAndchemcistryItems.map((item, i) => (

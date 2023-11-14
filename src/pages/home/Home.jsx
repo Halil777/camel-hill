@@ -1,6 +1,5 @@
 import { Stack, IconButton, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-// import back1 from "../../home/home1.jpeg";
 import WhoWeAre from "../../components/home/WhoWeAre";
 
 const Home = () => {
@@ -24,27 +23,19 @@ const Home = () => {
                 data-aos-delay="400"
                 color="#fff"
               >
-                Welcome to
+                Добро пожаловать в
               </Typography>
               <Typography variant="h3" color="orange">
-                Duyeli Depe
+                Düýeli Depe
               </Typography>
             </Stack>
-            <Typography
-              variant="h3"
-              data-aos="fade-left"
-              data-aos-delay="500"
-              color="#fff"
-            >
-              Economic Society!!!
-            </Typography>
             <Typography
               variant="h6"
               data-aos="fade-right"
               data-aos-delay="600"
               color="#fff"
             >
-              Leveraging Innovative Technologies for a Brighter Tomorrow
+              Используем инновационные технологии для светлого будущего
             </Typography>
           </Stack>
         </Container>

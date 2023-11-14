@@ -141,26 +141,26 @@ export const tubotItems = [
 
 export const smallNavbarItems = [
   {
-    title: "Home",
+    title: "Главная",
     link: "",
   },
 
   {
-    title: "Construction / Ecology  ",
+    title: "Строительство / Экология",
     link: "construction-and-ecology",
   },
 
   {
-    title: "Oil & Gas services",
+    title: "Нефтегазовые услуги",
     link: "oil-gas",
   },
   {
-    title: "Equipment / Chemistry",
+    title: "Оборудование / Химия",
     link: "equipment-and-chemistry",
   },
 
   {
-    title: "Innovative Technologies",
+    title: "Инновационные Технологии",
     link: "innovative-technologies",
   },
 ];
@@ -1325,50 +1325,42 @@ export const systemSetItemsPro = [
 
 export const innovativeTechnologiesItems = [
   {
-    title: "Tank Cleaning Technology",
+    title: "Технология очистки резервуаров",
     pic: "./innovative/item5.jpg",
     description:
-      "Mobile autonomous robotic complex for cleaning tanks, oilfield and petrochemical equipment",
+      "Мобильный автономный робототехнический комплекс для очистки резервуаров, нефтегазового и нефтехимического оборудования",
   },
 
   {
-    title: "Intratubular Cleaning Technology",
+    title: "Технология внутритрубной очистки",
     pic: "./innovative/item3.jpg",
     description:
-      "Intratubular robotic systems for non-destructive testing and cleaning of complex branched pipeline sections. The Tubot robotic system is designed to assess the current technical condition of pipelines to prevent accidents, human casualties and damage to the environment.",
+      "Робототехнические системы внутритрубной очистки для неразрушающего тестирования и очистки сложных разветвленных участков трубопроводов. Робототехническая система Tubot предназначена для оценки текущего технического состояния трубопроводов с целью предотвращения аварий, гибели людей и повреждения окружающей среды.",
   },
 
   {
-    title: "Inspection Robots",
+    title: "Роботы-инспекторы",
     pic: "./innovative/item1.jpg",
     description:
-      "Founded in 2016, Unitree Robotics specializes in the research and development, production and sales of high-performance industrial-grade four-legged robots. Equipped with GPS, robotic arm, lidar and other instruments and test equipment, they can perform a range of jobs such as patrol inspection, reconnaissance, material transportation, etc.",
+      "Основанная в 2016 году, Unitree Robotics специализируется на исследованиях и разработках, производстве и продажах высокопроизводительных четырехногих роботов промышленного класса. Оборудованные GPS, роботическим манипулятором, лидаром и другими инструментами и испытательным оборудованием, они могут выполнять широкий спектр работ, таких как патрульный обход, разведка, транспортировка материалов и др.",
   },
 
   {
-    title: "Remotedly Operated Vehicle",
+    title: "Дистанционно управляемые подводные аппараты",
     pic: "./innovative/item2.jpg",
-    description: [
-      "- Oceanography, scientific research",
-      "- Hydroelectric power plants and dams",
-      "- Ship and platform inspection",
-      "- Search and rescue",
-      "- Diving",
-      "- Underwater speleology",
-      "- Fisheries and fishing",
-      "- Oil extraction industry",
-    ],
+    description:
+      "Основанная в 2016 году, компания Unitree Robotics специализируется на исследованиях и разработках, производстве и продажах четырехногих роботов промышленного класса высокой производительности. Оборудованные GPS, роботическим манипулятором, лидаром и другими инструментами и испытательным оборудованием, эти роботы могут выполнять разнообразные задачи, включая патрульный обход, разведку, транспортировку материалов и многое другое.",
   },
 ];
 
 export const equipmentAndchemcistryItems = [
   {
-    title: "Equipment ",
+    title: "Оборудование  ",
     pic: "./equipment/item1.jpg",
   },
 
   {
-    title: "Chemistry",
+    title: "Химия",
     pic: "./equipment/item2.jpg",
   },
 
