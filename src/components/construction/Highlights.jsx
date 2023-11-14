@@ -64,7 +64,7 @@ const Highlights = () => {
 
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
-                      <Button sx={{ textTransform: "none" }}>More </Button>
+                      <Button sx={{ textTransform: "none" }}>Подробное </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
                       <Typography variant="body2">
@@ -104,7 +104,7 @@ const Highlights = () => {
 
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
-                      <Button sx={{ textTransform: "none" }}>More </Button>
+                      <Button sx={{ textTransform: "none" }}>Подробное </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
                       <Typography variant="body2">
@@ -149,7 +149,7 @@ const Highlights = () => {
 
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
-                      <Button sx={{ textTransform: "none" }}>More </Button>
+                      <Button sx={{ textTransform: "none" }}>Подробное </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
                       <Typography variant="body2">

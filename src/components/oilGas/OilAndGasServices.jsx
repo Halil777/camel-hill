@@ -11,7 +11,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const OilAndGasServices = () => {
   const servicesData = {
-    "Primary Services": [
+    "Основные услуги": [
       "Coiled Tubing Technologies",
       "Hydraulic Fracturing",
       "Drilling and Workover",
@@ -22,7 +22,7 @@ const OilAndGasServices = () => {
       "Well Completion",
       "Development of New Technologies",
     ],
-    "Secondary Services": [
+    "Вторичные услуги": [
       "Milling of Ports, Traffic Jams, etc. (DDM, Jars, Separators, Sludge Traps)",
       "Opening/Closing of Hydraulic Fracturing Ports with a Switching Tool",
       "Small Diameter Side-Track Drilling (Fishbone)",
@@ -106,7 +106,7 @@ const OilAndGasServices = () => {
         data-aos-delay="500"
         gutterBottom
       >
-        Oil and Gas Services
+        Услуги нефти и газа
       </Typography>
 
       <Grid container spacing={2}>

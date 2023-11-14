@@ -183,8 +183,8 @@ const HydraulicFracturing = () => {
                       variant="outlined"
                     >
                       {item.showDescription
-                        ? "Hide Description"
-                        : "Show Description"}
+                        ? "Скрыть описание"
+                        : "Показать описание"}
                     </Button>
                   </Stack>
                 </CardContent>

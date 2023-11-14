@@ -56,7 +56,7 @@ const WhoWeAre = () => {
                 />
                 <CardContent>
                   <Typography align="center">
-                    Construction and Ecology
+                    Строительство / Экология
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -80,7 +80,7 @@ const WhoWeAre = () => {
                   alt="src"
                 />
                 <CardContent>
-                  <Typography align="center">Oil & Gas services</Typography>
+                  <Typography align="center">Нефтегазовые услуги</Typography>
                 </CardContent>
               </CardActionArea>
             </Card>
@@ -103,9 +103,7 @@ const WhoWeAre = () => {
                   alt="src"
                 />
                 <CardContent>
-                  <Typography align="center">
-                    Equipment and Chemistry
-                  </Typography>
+                  <Typography align="center">Оборудование / Химия</Typography>
                 </CardContent>
               </CardActionArea>
             </Card>
@@ -129,7 +127,7 @@ const WhoWeAre = () => {
                 />
                 <CardContent>
                   <Typography align="center">
-                    Innovative Technologies
+                    Инновационные Технологии
                   </Typography>
                 </CardContent>
               </CardActionArea>
