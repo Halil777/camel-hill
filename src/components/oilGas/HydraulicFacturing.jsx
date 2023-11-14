@@ -110,7 +110,6 @@ const HydraulicFracturing = () => {
       <Typography
         data-aos="fade-down"
         data-aos-delay="500"
-        align="center"
         color="gray"
         sx={{ fontStyle: "italic" }}
       >

@@ -17,7 +17,7 @@ const WhoWeAre = () => {
         <Typography variant="h3" mt={6} align="center">
           О НАС
         </Typography>
-        <Typography align="center" mt={2} sx={{ fontStyle: "italic" }}>
+        <Typography mt={2} sx={{ fontStyle: "italic" }}>
           От всего коллектива приветствуем Вас на сайте и выражаем благодарность
           за интерес, проявленный к нашей компании. ХО «Дуйели Депе» -
           современная, динамично развивающаяся компания, объединившая в себе

@@ -6,6 +6,10 @@ import {
   Container,
   Grid,
   Typography,
+  Accordion,
+  AccordionSummary,
+  Button,
+  AccordionDetails,
 } from "@mui/material";
 import { equipmentAndchemcistryItems } from "../../data/data.mjs";
 
@@ -16,7 +20,7 @@ const EquipmentItems = () => {
         <Typography mt={8} align="center" variant="h3">
           Оборудование и Химия
         </Typography>
-        <Typography align="center" sx={{ fontStyle: "italic" }} mt={2}>
+        <Typography sx={{ fontStyle: "italic" }} mt={2}>
           При поставках химических реагентах наша главная задача удовлетворения
           потребностей при строительстве газовых, газоконденсатных и нефтяных
           скважин различной степени сложности. Широкий спектр реагентов,
@@ -53,6 +57,18 @@ const EquipmentItems = () => {
                     <Typography pb={3} sx={{ fontSize: "26px" }} align="center">
                       {item.title}
                     </Typography>
+                    <Accordion>
+                      <AccordionSummary sx={{ background: "transparent" }}>
+                        <Button sx={{ textTransform: "none" }}>
+                          Подробное
+                        </Button>
+                      </AccordionSummary>
+                      <AccordionDetails sx={{ background: "#f3f3f3" }}>
+                        <Typography variant="body2">
+                          {item.description}
+                        </Typography>
+                      </AccordionDetails>
+                    </Accordion>
                   </CardContent>
                 </CardActionArea>
               </Card>

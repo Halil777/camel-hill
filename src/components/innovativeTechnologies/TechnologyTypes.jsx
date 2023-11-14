@@ -8,8 +8,8 @@ import {
   CardMedia,
   Container,
   Grid,
-  Tooltip,
   Typography,
+  Button,
 } from "@mui/material";
 import { innovativeTechnologiesItems } from "../../data/data.mjs";
 
@@ -20,7 +20,7 @@ const TechnologyTypes = () => {
         <Typography mt={8} align="center" variant="h3">
           Инновационные Технологии
         </Typography>
-        <Typography align="center" sx={{ fontStyle: "italic" }} mt={2}>
+        <Typography sx={{ fontStyle: "italic" }} mt={2}>
           В современном мире инновации являются естественным и незаменимым
           процессом для существования промышленности. Условия, выстраивающиеся
           на рынке, говорят о том, что дальнейшее развитие государства и
@@ -57,11 +57,14 @@ const TechnologyTypes = () => {
                     alt={item.title}
                   />
                   <CardContent>
+                    <Typography sx={{ height: 50 }} mb={3}>
+                      {item.title}
+                    </Typography>
                     <Accordion>
                       <AccordionSummary sx={{ background: "transparent" }}>
-                        <Tooltip title={item.title}>
-                          <Typography>{item.title.slice(0, 20)}...</Typography>
-                        </Tooltip>
+                        <Button sx={{ textTransform: "none" }}>
+                          Подробное
+                        </Button>
                       </AccordionSummary>
                       <AccordionDetails sx={{ background: "#f3f3f3" }}>
                         <Typography align="center" variant="h6" pb={2}>

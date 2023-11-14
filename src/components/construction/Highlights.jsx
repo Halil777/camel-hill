@@ -19,7 +19,7 @@ const Highlights = () => {
         <Typography mt={7} variant="h4" align="center">
           Строительство и Экология
         </Typography>
-        <Typography mt={1} align="center" sx={{ fontStyle: "italic" }}>
+        <Typography mt={1} sx={{ fontStyle: "italic" }}>
           Наша компания специализируется на строительстве и экологии. Мы
           придерживаемся принципов качества и безопасности в строительных
           проектах, строя жилые, коммерческие и промышленные объекты с акцентом

@@ -90,30 +90,6 @@ const Footer = () => {
                   +993 12 46-83-54
                 </Typography>
               </Stack>
-              {/* <Stack
-                direction="row"
-                data-aos="fade-down"
-                data-aos-delay="500"
-                alignItems="center"
-                spacing={1}
-              >
-                <PhoneInTalkIcon sx={{ color: "#fff" }} />
-                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
-                  +993 12 46-83-55
-                </Typography>
-              </Stack>
-              <Stack
-                direction="row"
-                data-aos="fade-down"
-                data-aos-delay="600"
-                alignItems="center"
-                spacing={1}
-              >
-                <PhoneInTalkIcon sx={{ color: "#fff" }} />
-                <Typography sx={{ color: "#fff", fontSize: "15px" }}>
-                  +993 12 46-83-56
-                </Typography>
-              </Stack> */}
               <Stack
                 direction="row"
                 data-aos="fade-down"
@@ -135,26 +111,13 @@ const Footer = () => {
               >
                 <LocationOnIcon sx={{ color: "#fff" }} />
                 <Typography sx={{ color: "#fff", fontSize: "15px" }}>
-                  Ashgabat ş. Türkmenistan 1972(Ataturk)street building 82
+                  {/* Ashgabat ş. Türkmenistan 1972(Ataturk)street building 82 */}
+                  Ашхабад, ул. 1972 (Ататюрк), дом 82.
                 </Typography>
               </Stack>
             </Stack>
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
-            {/* <Typography
-              data-aos="fade-left"
-              data-aos-delay="400"
-              variant="h5"
-              sx={{
-                color: "#fff",
-                fontWeight: 700,
-                letterSpacing: "1px",
-                textDecoration: "underline",
-                textUnderlineOffset: "7px",
-              }}
-            >
-              О Компании
-            </Typography> */}
             <Stack spacing={3}>
               <Typography
                 color="#fff"
