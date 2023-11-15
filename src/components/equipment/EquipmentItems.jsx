@@ -24,7 +24,7 @@ const EquipmentItems = () => {
           {t("chemistryTitle")}
         </Typography>
         <Typography sx={{ fontStyle: "italic" }} mt={2}>
-          {t("chemistryDesc1")}
+          {t("chemistryDesc")}
         </Typography>
         <Grid container spacing={4} mt={5}>
           {equipmentAndchemcistryItems.map((item, i) => (

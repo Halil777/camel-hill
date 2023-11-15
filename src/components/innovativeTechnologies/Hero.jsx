@@ -24,6 +24,7 @@ const Hero = () => {
             data-aos-delay="600"
             variant="h3"
             color="#fff"
+            sx={{ width: "60%" }}
           >
             {t("innTitle")}
           </Typography>
@@ -32,6 +33,7 @@ const Hero = () => {
             data-aos="fade-right"
             data-aos-delay="600"
             color="#fff"
+            sx={{ width: "60%" }}
           >
             {t("innSub")}
           </Typography>

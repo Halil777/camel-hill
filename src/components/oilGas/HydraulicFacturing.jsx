@@ -18,74 +18,65 @@ const HydraulicFracturing = () => {
 
   const [cardData, setCardData] = useState([
     {
-      title: "Стандартное гидроразрывное бурение",
-      subtitle: "Эффективный и проверенный метод",
-      description:
-        "Наш стандартный процесс гидроразрывного бурения - это надежный и эффективный метод добычи нефти и газа. Он включает в себя внедрение жидкости под высоким давлением для создания трещин в породе пласта, что позволяет извлекать ценные ресурсы.",
+      title: "carouselTitle1",
+      subtitle: "carouselSubTitle1",
+      description: "carouselDescription1",
       showDescription: false,
       pic: "./oil/hydra1.webp",
     },
     {
-      title: "Большой объем гидроразрывного бурения",
-      subtitle: "Максимизация производства",
-      description:
-        "Гидроразрыв большого объема - это специализированная техника, разработанная для оптимизации производства. Обладая возможностью внедрения больших объемов жидкости, мы эффективно получаем доступ и извлекаем углеводороды из глубоких подземных месторождений.",
+      title: "carouselTitle2",
+      subtitle: "carouselSubTitle2",
+      description: "carouselDescription2",
       showDescription: false,
       pic: "./oil/hydra2.jpg",
     },
     {
-      title: "Многоступенчатое гидроразрывное бурение",
-      subtitle: "Оптимизация стимуляции пласта",
-      description:
-        "Наш метод многоступенчатого гидроразрывного бурения включает несколько этапов разрыва для максимизации стимуляции пласта и улучшения добычи нефти и газа.",
+      title: "carouselTitle3",
+      subtitle: "carouselSubTitle3",
+      description: "carouselDescription3",
       showDescription: false,
       pic: "./oil/hydra3.webp",
     },
     {
-      title: "Пенный гидроразрыв",
-      subtitle: "Снижение повреждения пласта",
-      description:
-        "Пенный гидроразрыв - это метод, использующий пену для транспортировки проппанта в трещины, снижая повреждение пласта и улучшая поток углеводородов.",
+      title: "carouselTitle4",
+      subtitle: "carouselSubTitle4",
+      description: "carouselDescription4",
       showDescription: false,
       pic: "./oil/hydra4.png",
     },
     {
-      title: "Азотный гидроразрыв",
-      subtitle: "Повышенная эффективность",
-      description:
-        "Азотный гидроразрыв используется для увеличения эффективности гидроразрывного бурения с использованием азота в качестве рабочей жидкости, что приводит к снижению повреждения пласта и улучшению добычи нефти и газа.",
+      title: "carouselTitle5",
+      subtitle: "carouselSubTitle5",
+      description: "carouselDescription5",
       showDescription: false,
       pic: "./oil/hydra5.jpeg_v03",
     },
     {
-      title: "Гидроразрыв на основе углеводородов",
-      subtitle: "Экологически чистый метод",
-      description:
-        "Наш метод гидроразрыва на основе углеводородов использует экологически чистые углеводороды в качестве рабочей жидкости, минимизируя воздействие на окружающую среду при максимальной добыче ресурсов.",
+      title: "carouselTitle6",
+      subtitle: "carouselSubTitle6",
+      description: "carouselDescription6",
       showDescription: false,
       pic: "./oil/hydra6.jpg",
     },
     {
-      title: "Гидроразрыв с композитными пробками (Plug & Perf)",
-      subtitle: "Точный контроль пласта",
-      description:
-        "Гидроразрыв с композитными пробками (MSHF) с механическим герметизированным гидроразрывом, также известным как 'Plug & Perf', - это техника, используемая для точного контроля пласта и оптимизации работы скважины.",
+      title: "carouselTitle7",
+      subtitle: "carouselSubTitle7",
+      description: "carouselDescription7",
       showDescription: false,
       pic: "./oil/hydra1.webp",
     },
     {
-      title: "MSHF на буровой трубе с абразивным проколом",
-      subtitle: "Эффективность и универсальность",
-      description:
-        "MSHF, выполненный на буровой трубе с абразивным или кумулятивным проколом, предлагает эффективный и универсальный метод для вмешательства в работу скважины и стимуляции.",
+      title: "carouselTitle8",
+      subtitle: "carouselSubTitle8",
+      description: "carouselDescription8",
       showDescription: false,
       pic: "./oil/hydra7.jpg",
     },
     {
-      title: "Буровые бригады по добыче и боковому бурению",
-      subtitle: "Опытные команды",
-      description:
-        "Наши опытные буровые бригады специализируются на производственном бурении и боковом бурении, предоставляя экспертизу и эффективность в ваших проектах бурения.",
+      title: "carouselTitle9",
+      subtitle: "carouselSubTitle9",
+      description: "carouselDescription9",
       showDescription: false,
       pic: "./oil/hydra10.png",
     },
@@ -158,16 +149,16 @@ const HydraulicFracturing = () => {
                 />
                 <CardContent>
                   <Stack height={60}>
-                    <Typography gutterBottom variant="h5" component="div">
-                      {item.title}
+                    <Typography gutterBottom variant="h6" component="div">
+                      {t(item.title)}
                     </Typography>
                   </Stack>
                   <Typography variant="subtitle1" pb={4} color="text.secondary">
-                    {item.subtitle}
+                    {t(item.subtitle)}
                   </Typography>
                   {item.showDescription ? (
                     <Typography variant="body2" pb={3} color="text.secondary">
-                      {item.description}
+                      {t(item.description)}
                     </Typography>
                   ) : null}
                   <Stack

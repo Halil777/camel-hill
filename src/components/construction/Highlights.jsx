@@ -77,7 +77,7 @@ const Highlights = () => {
                 <CardMedia
                   component="img"
                   height="250"
-                  image="./equipment/eco5.avif"
+                  image="./equipment/tired.jpg"
                   alt="Construction"
                 />
                 <CardContent>
@@ -88,7 +88,7 @@ const Highlights = () => {
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
                       <Button sx={{ textTransform: "none" }}>
-                        {t("more")}{" "}
+                        {t("more")}
                       </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
@@ -124,7 +124,7 @@ const Highlights = () => {
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
                       <Button sx={{ textTransform: "none" }}>
-                        {t("more")}{" "}
+                        {t("more")}
                       </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>

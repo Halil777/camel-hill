@@ -16,14 +16,6 @@ const HeroOil = () => {
         <Container>
           <Stack spacing={2} pt={15}>
             <Box sx={{ display: "flex", gap: 5, alignItems: "center" }}>
-              <Typography
-                data-aos="fade-right"
-                data-aos-delay="600"
-                variant="h3"
-                color="#fff"
-              >
-                {t("homeTitle1")}
-              </Typography>
               <Typography variant="h3" color="orange">
                 Düýeli Depe
               </Typography>

@@ -19,20 +19,12 @@ const Home = () => {
         <Container>
           <Stack spacing={2}>
             <Stack direction="row" spacing={3}>
-              <Typography
-                variant="h3"
-                data-aos="fade-right"
-                data-aos-delay="400"
-                color="#fff"
-              >
-                {t("homeTitle1")}
-              </Typography>
-              <Typography variant="h3" color="orange">
+              <Typography variant="h3" color="#fff">
                 Düýeli Depe
               </Typography>
             </Stack>
             <Typography
-              variant="h6"
+              variant="h4"
               data-aos="fade-right"
               data-aos-delay="600"
               color="#fff"

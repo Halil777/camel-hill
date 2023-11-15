@@ -20,15 +20,15 @@ const Hero = () => {
             <Typography variant="h3" color="orange">
               Düýeli Depe
             </Typography>
-            <Typography
-              data-aos="fade-left"
-              data-aos-delay="600"
-              variant="h3"
-              color="#fff"
-            >
-              {t("chemistryTitle")}
-            </Typography>
           </Box>
+          <Typography
+            data-aos="fade-left"
+            data-aos-delay="600"
+            variant="h3"
+            color="#fff"
+          >
+            {t("chemistryTitle")}
+          </Typography>
           <Typography
             variant="h6"
             data-aos="fade-right"

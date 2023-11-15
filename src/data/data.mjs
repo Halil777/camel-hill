@@ -1362,3 +1362,112 @@ export const equipmentAndchemcistryItems = [
     description: "chemistryDesc3",
   },
 ];
+
+export const primaryService = [
+  {
+    title: "primaryService1",
+    serviceTitle: "serviceTitle1",
+    description: "serviceDescription1",
+  },
+  {
+    title: "primaryService2",
+    serviceTitle: "serviceTitle2",
+    description: "serviceDescription2",
+  },
+  {
+    title: "primaryService3",
+    serviceTitle: "serviceTitle3",
+    description: "serviceDescription3",
+  },
+  {
+    title: "primaryService4",
+    serviceTitle: "serviceTitle4",
+    description: "serviceDescription4",
+  },
+  {
+    title: "primaryService5",
+    serviceTitle: "serviceTitle5",
+    description: "serviceDescription5",
+  },
+  {
+    title: "primaryService6",
+    serviceTitle: "serviceTitle6",
+    description: "serviceDescription6",
+  },
+  {
+    title: "primaryService7",
+    serviceTitle: "serviceTitle7",
+    description: "serviceDescription7",
+  },
+  {
+    title: "primaryService8",
+    serviceTitle: "serviceTitle8",
+    description: "serviceDescription8",
+  },
+  {
+    title: "primaryService9",
+    serviceTitle: "serviceTitle9",
+    description: "serviceDescription9",
+  },
+];
+
+export const secondaryService = [
+  {
+    title: "secondaryService1",
+    serviceTitle: "serviceTitle10",
+    description: "serviceDescription10",
+  },
+
+  {
+    title: "secondaryService2",
+    serviceTitle: "serviceTitle11",
+    description: "serviceDescription11",
+  },
+
+  {
+    title: "secondaryService3",
+    serviceTitle: "serviceTitle12",
+    description: "serviceDescription12",
+  },
+
+  {
+    title: "secondaryService4",
+    serviceTitle: "serviceTitle13",
+    description: "serviceDescription13",
+  },
+
+  {
+    title: "secondaryService5",
+    serviceTitle: "serviceTitle14",
+    description: "serviceDescription14",
+  },
+
+  {
+    title: "secondaryService6",
+    serviceTitle: "serviceTitle15",
+    description: "serviceDescription15",
+  },
+
+  {
+    title: "secondaryService7",
+    serviceTitle: "serviceTitle16",
+    description: "serviceDescription16",
+  },
+  {
+    title: "secondaryService8",
+    serviceTitle: "serviceTitle17",
+    description: "serviceDescription17",
+  },
+
+  {
+    title: "secondaryService9",
+    serviceTitle: "serviceTitle18",
+    description: "serviceDescription18",
+  },
+
+  {
+    title: "secondaryService10",
+    serviceTitle: "serviceTitle19",
+    description: "serviceDescription19",
+  },
+];

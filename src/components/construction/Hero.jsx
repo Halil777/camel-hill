@@ -18,7 +18,7 @@ const Hero = () => {
       <Box sx={backgroundImageStyle}>
         <Container>
           <Stack spacing={2} pt={15}>
-            <Typography variant="h4" color="orange">
+            <Typography variant="h3" color="orange">
               Düýeli Depe
             </Typography>
             <Typography
