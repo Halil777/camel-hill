@@ -1028,7 +1028,7 @@ const resources = {
       equipmentAccordionTitle5: "Burowoý Yas",
       equipmentAccordionTitle6: "Zerur guraly",
       equipmentAccordionTitle7: "Aýlanyş bölümi",
-      equipmentAccordionTitle8: "WIBRASI TOA GURAMY",
+      equipmentAccordionTitle8: "Wibrasiya Guraly",
 
       equipmentAccordionItem1_1: "Buraw däl aýakgap",
 
