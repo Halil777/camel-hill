@@ -209,8 +209,8 @@ const resources = {
       chemistryAccordionTitle6: "reagents, materials for well workover",
       chemistryAccordionTitle7: "special purpose chemicals",
       chemistryAccordionTitle8: "for regeneration of drilling process fluids",
-      chemistryAccordionTitle9: "CATALYST AND SPECIAL PRODUCTS",
-      chemistryAccordionTitle10: "COMMODITY CHEMISTRY",
+      chemistryAccordionTitle9: "Catalyst and special products",
+      chemistryAccordionTitle10: "Commodity chemistry",
       chemistryAccordionItem1_1:
         "stabilizers, regulators of filtration and rheological properties",
       chemistryAccordionItem1_2:
@@ -938,7 +938,7 @@ const resources = {
       chemistryAccordionTitle7: "ýörite himiki maddalar",
       chemistryAccordionTitle8:
         "buraw prosesi suwuklyklarynyň täzelenmegi üçin",
-      chemistryAccordionTitle9: "KATALYST WE ECörite önümler",
+      chemistryAccordionTitle9: "Katalyst we Ýörite önümler",
       chemistryAccordionTitle10: "Haryt himiýasy",
       chemistryAccordionItem1_1:
         "stabilizatorlar, süzgüç we reologiki aýratynlyklary sazlaýjylar",
