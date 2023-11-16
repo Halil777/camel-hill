@@ -12,6 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import { titleStyle } from "../../style/style.mjs";
 
 const HydraulicFracturing = () => {
   const { t } = useTranslation();
@@ -92,7 +93,7 @@ const HydraulicFracturing = () => {
   return (
     <Container>
       <Typography
-        variant="h4"
+        sx={titleStyle}
         mt={12}
         data-aos="fade-down"
         data-aos-delay="500"
@@ -105,7 +106,10 @@ const HydraulicFracturing = () => {
         data-aos="fade-down"
         data-aos-delay="500"
         color="gray"
-        sx={{ fontStyle: "italic" }}
+        sx={{
+          fontStyle: "italic",
+          textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
+        }}
       >
         {t("oilDesc1")}
       </Typography>

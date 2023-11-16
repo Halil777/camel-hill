@@ -18,14 +18,14 @@ const Hero = () => {
       <Container>
         <Stack spacing={2}>
           <Box sx={{ display: "flex", gap: 5, alignItems: "center" }}>
-            <Typography variant="h3" color="orange">
+            <Typography sx={titleStyle} color="orange">
               Düýeli Depe
             </Typography>
           </Box>
           <Typography
             data-aos="fade-left"
             data-aos-delay="600"
-            variant="h3"
+            sx={subTitle}
             color="#fff"
           >
             {t("chemistryTitle")}

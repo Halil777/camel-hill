@@ -29,7 +29,10 @@ const WhoWeAre = () => {
         >
           {t("aboutUsText")}
         </Typography>
-        <Grid container spacing={3} mt={2}>
+        <Typography align="center" sx={titleStyle} mt={2}>
+          Lorem ipsum dolor, sit amet consectetur
+        </Typography>
+        <Grid container spacing={3} mt={1}>
           <Grid item lg={3} md={3} sm={6} xs={12}>
             <Card
               onClick={() => navigate("/construction-and-ecology")}

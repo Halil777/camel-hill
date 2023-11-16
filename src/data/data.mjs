@@ -21,7 +21,7 @@ export const homeCarouselItems = [
 export const partnersItems = [
   {
     id: 1,
-    pic: "./partners/part1.png",
+    pic: "./partners/part1.jpg",
   },
 
   {

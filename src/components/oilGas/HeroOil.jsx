@@ -1,6 +1,7 @@
 import { Container, Typography, Box, Stack } from "@mui/material";
 import back1 from "../../home/home1.jpeg";
 import { useTranslation } from "react-i18next";
+import { titleStyle, subTitle } from "../../style/style.mjs";
 
 const HeroOil = () => {
   const { t } = useTranslation();
@@ -16,14 +17,14 @@ const HeroOil = () => {
         <Container>
           <Stack spacing={2} pt={15}>
             <Box sx={{ display: "flex", gap: 5, alignItems: "center" }}>
-              <Typography variant="h3" color="orange">
+              <Typography sx={titleStyle} color="orange">
                 Düýeli Depe
               </Typography>
             </Box>
             <Typography
               data-aos="fade-left"
               data-aos-delay="600"
-              variant="h3"
+              sx={subTitle}
               color="#fff"
             >
               {t("oilTitle")}

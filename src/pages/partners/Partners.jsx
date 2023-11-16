@@ -20,7 +20,11 @@ const Partners = () => {
           </Typography>
         </Grid>
         <Grid item lg={8} md={8} sm={6} xs={12}>
-          <Stack direction="row" justifyContent="space-between">
+          <Stack
+            direction="row"
+            alignItems="center"
+            justifyContent="space-between"
+          >
             {partnersItems.map((item, i) => (
               <img
                 key={`home_carousel_items_key${i}`}
@@ -28,6 +32,7 @@ const Partners = () => {
                 alt={item.id}
                 style={{
                   width: "100px",
+                  height: "80px",
                 }}
               />
             ))}

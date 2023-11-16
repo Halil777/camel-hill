@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import { innovativeTechnologiesItems } from "../../data/data.mjs";
 import { useTranslation } from "react-i18next";
+import { titleStyle } from "../../style/style.mjs";
 
 const TechnologyTypes = () => {
   const { t } = useTranslation();
@@ -20,10 +21,16 @@ const TechnologyTypes = () => {
   return (
     <div>
       <Container>
-        <Typography mt={8} align="center" variant="h3">
+        <Typography mt={8} align="center" sx={titleStyle}>
           {t("innTitle2")}
         </Typography>
-        <Typography sx={{ fontStyle: "italic" }} mt={2}>
+        <Typography
+          sx={{
+            fontStyle: "italic",
+            textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
+          }}
+          mt={2}
+        >
           {t("innDesc1")}
         </Typography>
         <Grid container spacing={4} mt={5}>

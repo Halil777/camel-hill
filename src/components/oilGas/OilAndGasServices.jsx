@@ -9,6 +9,7 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useTranslation } from "react-i18next";
 import { primaryService, secondaryService } from "../../data/data.mjs";
+import { subTitle } from "../../style/style.mjs";
 
 const OilAndGasServices = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const OilAndGasServices = () => {
   return (
     <Container>
       <Typography
-        variant="h4"
+        sx={subTitle}
         mt={12}
         textAlign="center"
         data-aos="fade-down"
@@ -28,7 +29,7 @@ const OilAndGasServices = () => {
 
       <Grid container spacing={4}>
         <Grid item lg={12} md={12} xs={12} sm={12}>
-          <Typography align="center" variant="h4" mt={3} mb={3}>
+          <Typography align="center" sx={subTitle} mt={3} mb={3}>
             {t("primaryService")}
           </Typography>
         </Grid>
@@ -50,7 +51,7 @@ const OilAndGasServices = () => {
           </Grid>
         ))}
         <Grid item lg={12} md={12} xs={12} sm={12}>
-          <Typography align="center" variant="h4" mt={3} mb={3}>
+          <Typography align="center" sx={subTitle} mt={3} mb={3}>
             {t("secondaryService")}
           </Typography>
         </Grid>
