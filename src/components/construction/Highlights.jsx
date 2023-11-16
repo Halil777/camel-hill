@@ -84,7 +84,7 @@ const Highlights = () => {
                 <CardMedia
                   component="img"
                   height="250"
-                  image="./equipment/tired.jpg"
+                  image="./construction/cons7.png"
                   alt="Construction"
                 />
                 <CardContent>
