@@ -1,5 +1,6 @@
 import { Container, Typography, Box, Stack } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import { titleStyle, subTitle } from "../../style/style.mjs";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -18,13 +19,13 @@ const Hero = () => {
       <Box sx={backgroundImageStyle}>
         <Container>
           <Stack spacing={2} pt={15}>
-            <Typography variant="h3" color="orange">
+            <Typography sx={titleStyle} color="orange">
               Düýeli Depe
             </Typography>
             <Typography
               data-aos="fade-left"
               data-aos-delay="600"
-              variant="h3"
+              sx={subTitle}
               color="#000"
             >
               {t("ecoTitle")}

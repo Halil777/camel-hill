@@ -1,5 +1,6 @@
 import { Container, Stack, Box, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import { subTitle, titleStyle } from "../../style/style.mjs";
 
 const Hero = () => {
   const { t } = useTranslation();

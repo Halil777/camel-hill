@@ -66,7 +66,7 @@ const Navbar = () => {
               <Link to="/">
                 <img src="./images/logo.png" alt="Logo" />
               </Link>
-              <Stack direction="row" spacing={3}>
+              <Stack direction="row" spacing={2}>
                 {smallNavbarItems.map((linkCategory, index) => {
                   const delay = 100 + index * 400;
                   return (
@@ -79,6 +79,7 @@ const Navbar = () => {
                             ? "underline"
                             : "none",
                         textUnderlineOffset: "7px",
+                        fontWeight: 400,
                       }}
                     >
                       <Typography
@@ -86,6 +87,7 @@ const Navbar = () => {
                         data-aos-delay={delay}
                         sx={{
                           fontSize: "15px",
+                          fontWeight: 400,
                           textDecoration:
                             location.pathname === `/${linkCategory.link}`
                               ? "underline"

@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { titleStyle } from "../../style/style.mjs";
 
 const WhoWeAre = () => {
   const { t } = useTranslation();
@@ -16,10 +17,16 @@ const WhoWeAre = () => {
   return (
     <>
       <Container>
-        <Typography variant="h3" mt={6} align="center">
+        <Typography sx={titleStyle} mt={6} align="center">
           {t("aboutUs")}
         </Typography>
-        <Typography mt={2} sx={{ fontStyle: "italic" }}>
+        <Typography
+          mt={2}
+          sx={{
+            fontStyle: "italic",
+            textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
+          }}
+        >
           {t("aboutUsText")}
         </Typography>
         <Grid container spacing={3} mt={2}>

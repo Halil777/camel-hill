@@ -2,6 +2,7 @@ import { Stack, IconButton, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import WhoWeAre from "../../components/home/WhoWeAre";
 import { useTranslation } from "react-i18next";
+import { titleStyle, subTitle } from "../../style/style.mjs";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -19,12 +20,12 @@ const Home = () => {
         <Container>
           <Stack spacing={2}>
             <Stack direction="row" spacing={3}>
-              <Typography variant="h3" color="#fff">
+              <Typography sx={titleStyle} color="#fff">
                 Düýeli Depe
               </Typography>
             </Stack>
             <Typography
-              variant="h4"
+              sx={subTitle}
               data-aos="fade-right"
               data-aos-delay="600"
               color="#fff"

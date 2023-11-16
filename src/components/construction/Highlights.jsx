@@ -12,6 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import { titleStyle } from "../../style/style.mjs";
 
 const Highlights = () => {
   const { t } = useTranslation();
@@ -19,10 +20,16 @@ const Highlights = () => {
   return (
     <>
       <Container>
-        <Typography mt={7} variant="h4" align="center">
+        <Typography mt={7} sx={titleStyle} align="center">
           {t("constructionEcology")}
         </Typography>
-        <Typography mt={1} sx={{ fontStyle: "italic" }}>
+        <Typography
+          mt={1}
+          sx={{
+            fontStyle: "italic",
+            textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
+          }}
+        >
           {t("ecoDescription")}
         </Typography>
 
@@ -52,7 +59,7 @@ const Highlights = () => {
                   <Accordion>
                     <AccordionSummary sx={{ background: "transparent" }}>
                       <Button sx={{ textTransform: "none" }}>
-                        {t("more")}{" "}
+                        {t("more")}
                       </Button>
                     </AccordionSummary>
                     <AccordionDetails sx={{ background: "#f3f3f3" }}>
