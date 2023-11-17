@@ -12,6 +12,8 @@ const resources = {
       aboutUs: "ABOUT US",
       aboutUsText:
         "We, the entire team, welcome you to the website and express our gratitude for your interest in our company. HO - Duyeli Depe is a modern, dynamically developing company that has brought together highly qualified specialists with many years of experience and knowledge in their field. Starting its activities in 2021 in construction and providing services for environmental impact assessment (EIA), contributing to sustainable development for companies such as Eni Turkmenistan, the branch of the China National Oil and Gas Company in Turkmenistan, Dragon Oil, and Chalik Energy. Collaborating with leading equipment manufacturers, chemical and service companies in the oil and gas industry, and technological companies producing innovative developments in all industries allows us to offer high-quality products, services, and solutions in the Turkmenistan market. In our work, we strive to find an individual approach to each client and are focused on long-term and mutually beneficial cooperation. We hope that by turning to us once, you will become our regular client.",
+      aboutUsText2:
+        "Welcoming you to the website and expressing our gratitude for your interest in our company. HO - Duyeli Depe is a modern, dynamically developing company that has brought together highly qualified specialists with many years of experience and knowledge in their field. Starting its activities in 2021 in construction and providing services for environmental impact assessment (EIA), contributing to sustainable development for companies such as Eni Turkmenistan, China National Oil and Gas Company in Turkmenistan, Dragon Oil, and Chalik Energy. Collaborating with leading equipment manufacturers, chemical and service companies in the oil and gas industry, and technological companies producing innovative developments in all industries allows us to offer high-quality products, services, and solutions for Turkmenistan market. In our work, we strive to find an individual approach to each client and are focused on long-term and mutually beneficial cooperation",
       constructionEcology: "Construction / Ecology",
       oilGas: "Oil and Gas Services",
       equipmentChemistry: "Equipment / Chemistry",
@@ -300,6 +302,8 @@ const resources = {
       equipmentAccordionTitle6: "Impact tool",
       equipmentAccordionTitle7: "Circulation sub",
       equipmentAccordionTitle8: "Vibrating tool",
+      equipmentAccordionTitle9: "casing pipes",
+      equipmentAccordionTitle10: "gas lift pipes  ",
 
       equipmentAccordionItem1_1: "Nonsliding Casing Shoe",
 
@@ -316,6 +320,9 @@ const resources = {
       equipmentAccordionItem5_1: "Hydraulic Mechanical Jar",
       equipmentAccordionItem5_2: "Hydraulic Jar",
       equipmentAccordionItem5_3: "Hydraulic Jar with Mechanical Latch",
+
+      equipmentAccordionItem9_1: "strength group ",
+      equipmentAccordionItem10_1: "steel grade ",
 
       // INNOVATION TECHNOLOGIES PAGE WORDS =================================================================
 
@@ -358,6 +365,8 @@ const resources = {
       aboutUs: "О НАС",
       aboutUsText:
         " От всего коллектива приветствуем Вас на сайте и выражаем благодарность за интерес, проявленный к нашей компании. ХО «Дуйели Депе» - современная, динамично развивающаяся компания, объединившая в себе высококвалифицированных специалистов с многолетним опытом работы и знаниями в своей области. Начавшая свою деятельность 2021 году в строительстве и оказание услуг по оценке воздействия на окружающую среду (ОВОС) , способствуя устойчивому развитию для таких компаний как Эни Туркменистан , филиал Китайская Национальная Нефтегазовая Компания в Туркменистане, Драгон Ойл и Чалик Энерджи. Сотрудничая с передовыми производителями оборудовании, химии, сервисными компаниями  нефтегазовой отрасли и технологическими компаниями производящие инновационные разработки во всех отраслях промышленности позволяет нам предлагать высококачественные продукты, услуги и решение на рынке Туркменистана. В нашей работе мы стараемся найти индивидуальный подход к каждому и нацелены на долговременное и взаимовыгодное сотрудничество. Мы надеемся, что обратившись однажды к нам Вы станете нашим постоянным клиентом.",
+      aboutUsText2:
+        "Добро пожаловать на наш веб-сайт, и выражаем благодарность за ваш интерес к нашей компании. HO - Duyeli Depe - это современная, динамично развивающаяся компания, которая объединила высококвалифицированных специалистов с многолетним опытом и знаниями в своей области. Начав свою деятельность в 2021 году в сфере строительства и предоставления услуг по оценке воздействия на окружающую среду (ОВОС), мы вносим свой вклад в устойчивое развитие для таких компаний, как Eni Turkmenistan, China National Oil and Gas Company в Туркменистане, Dragon Oil и Chalik Energy. Сотрудничество с ведущими производителями оборудования, химическими и сервисными компаниями в нефтегазовой промышленности, а также технологическими компаниями, производящими инновационные разработки во всех отраслях, позволяет нам предлагать продукты, услуги и решения высокого качества для рынка Туркменистана. В нашей работе мы стремимся найти индивидуальный подход к каждому клиенту и фокусируемся на долгосрочном и взаимовыгодном сотрудничестве.",
       constructionEcology: "Строительство / Экология",
       oilGas: "Нефтегазовые услуги",
       equipmentChemistry: "Оборудование / Химия",
@@ -680,6 +689,8 @@ const resources = {
       equipmentAccordionTitle6: "Ударный инструмент",
       equipmentAccordionTitle7: "Циркуляционный суб",
       equipmentAccordionTitle8: "Колебательний инструмент",
+      equipmentAccordionTitle9: "трубы обсадные",
+      equipmentAccordionTitle10: "трубы газлифтные ",
 
       equipmentAccordionItem1_1: "Несверлимый башмак",
 
@@ -696,6 +707,9 @@ const resources = {
       equipmentAccordionItem5_1: "Гидравлический механический яс",
       equipmentAccordionItem5_2: "Гидравлический яс",
       equipmentAccordionItem5_3: "Гидравлический яс с механической защелкой",
+
+      equipmentAccordionItem9_1: "группа прочности  ",
+      equipmentAccordionItem10_1: "марка стали ",
 
       // INNOVATION TECHNOLOGIES PAGE WORDS =================================================================
 
@@ -739,6 +753,9 @@ const resources = {
       aboutUs: "BIZ BARADA",
       aboutUsText:
         " Teamhli toparyň adyndan sizi saýta çagyrýarys we minnetdarlygymyzy bildirýäris kompaniýamyz bilen gyzyklanmagyňyz üçin. ES Duýeli Depe -birleşdirýän häzirki zaman, dinamiki ösýän kompaniýa köp ýyllyk tejribesi bolan ýokary hünärli hünärmenler we ugruňyzdaky bilimler. Işlerine 2021-nji ýylda başlady daşky gurşawa täsire baha bermek hyzmatlaryny gurmak we bermek ýaly kompaniýalar üçin durnukly ösüşi öňe sürýän daşky gurşaw (EIA) Eni Türkmenistan, Hytaý Milli Nebit Kompaniýasynyň bölümi Türkmenistanda, Dragon Oil we Chalik Energy. Öňdebaryjy bilen hyzmatdaşlyk enjamlary, himiki serişdeleri, hyzmat kompaniýalaryny öndürijiler öndürýän nebit-gaz senagaty we tehnologiýa kompaniýalary ähli pudaklarda innowasiýa ösüşleri bize mümkinçilik berýär ýokary hilli önümleri, hyzmatlary we bazara çözgütleri hödürläň Türkmenistan. Işimizde aýratyn çemeleşmäni tapmaga synanyşýarys hemmeler üçin we uzak möhletli we özara peýdalydyr  hyzmatdaşlygy. Biz bilen habarlaşanyňyzdan soň bolarsyňyz diýip umyt edýäris yzygiderli müşderimiz.",
+
+      aboutUsText2:
+        "Sahypamyza hoş geldiňiz we kompaniýamyz bilen gyzyklananyňyz üçin sag bolsun aýdýaryn. HO - Duýeli Depe, köp ýyllyk tejribesi we öz ugrundaky bilimleri bolan ýokary hünärli hünärmenleri birleşdirýän häzirki zaman, çalt ösýän kompaniýa. Gurluşyk we daşky gurşawa täsire baha bermek (EIA) hyzmatlary babatynda 2021-nji ýylda başlap, Eni Türkmenistan, Türkmenistandaky Hytaý Milli Nebit Gaz kompaniýasy, Dragon Oil we Chalik Energy ýaly kompaniýalar üçin durnukly ösüşe goşant goşýarys. Nebit we gaz pudagynda öňdebaryjy enjam öndürijiler, himiýa we hyzmat kompaniýalary, şeýle hem ähli pudaklarda innowasiýa ösüşini öndürýän tehnologiýa kompaniýalary bilen hyzmatdaşlyk, Türkmenistan bazaryna ýokary hilli önümleri, hyzmatlary we çözgütleri hödürlemäge mümkinçilik berýär. Işimizde, her bir müşderä aýratyn çemeleşmäge we uzak möhletli we özara peýdaly hyzmatdaşlyga ünsi jemlemäge çalyşýarys.",
       constructionEcology: "Gurluşyk / Ekologiýa",
       oilGas: "Nebit we Gaz hyzmatlary",
       equipmentChemistry: "Enjamlar / Himiýa",
@@ -1029,6 +1046,8 @@ const resources = {
       equipmentAccordionTitle6: "Zerur guraly",
       equipmentAccordionTitle7: "Aýlanyş bölümi",
       equipmentAccordionTitle8: "Wibrasiya Guraly",
+      equipmentAccordionTitle9: "örtükli turbalar",
+      equipmentAccordionTitle10: "gaz göteriji turbalar ",
 
       equipmentAccordionItem1_1: "Buraw däl aýakgap",
 
@@ -1045,6 +1064,9 @@ const resources = {
       equipmentAccordionItem5_1: "Gidrawlik mehaniki banka",
       equipmentAccordionItem5_2: "Gidrawlik bankasy",
       equipmentAccordionItem5_3: "Mehaniki berkitme bilen gidrawlik banka",
+
+      equipmentAccordionItem9_1: "güýç topary",
+      equipmentAccordionItem10_1: "polat derejesi",
 
       // INNOVATION TECHNOLOGIES PAGE WORDS =================================================================
 

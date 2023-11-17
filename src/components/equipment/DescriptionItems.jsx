@@ -226,6 +226,76 @@ const DescriptionItems = () => {
                   </Stack>
                 </AccordionDetails>
               </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  sx={{ background: "lightgrey" }}
+                  expandIcon={<ExpandMoreIcon />}
+                >
+                  <Typography
+                    sx={{ fontSize: 16 }}
+                    gutterBottom
+                    textTransform="capitalize"
+                  >
+                    {t("equipmentAccordionTitle9")}
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails sx={{ background: "#f3f3f3" }}>
+                  <Stack spacing={2}>
+                    <Typography
+                      sx={{ fontSize: 17, textTransform: "capitalize" }}
+                    >
+                      {t("equipmentAccordionItem9_1")} :
+                    </Typography>
+                    <Stack direction="row" spacing={4}>
+                      <Typography sx={{ fontSize: 17 }}>H40</Typography>
+                      <Typography sx={{ fontSize: 17 }}>J55</Typography>
+                    </Stack>
+                    <Stack direction="row" spacing={4}>
+                      <Typography sx={{ fontSize: 17 }}>M65</Typography>
+                      <Typography sx={{ fontSize: 17 }}>L80</Typography>
+                    </Stack>
+                    <Stack direction="row" spacing={4}>
+                      <Typography sx={{ fontSize: 17 }}>R95</Typography>
+                      <Typography sx={{ fontSize: 17 }}>C90</Typography>
+                    </Stack>
+                    <Stack direction="row" spacing={4}>
+                      <Typography sx={{ fontSize: 17 }}>T95</Typography>
+                      <Typography sx={{ fontSize: 17 }}>P110</Typography>
+                    </Stack>
+                  </Stack>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  sx={{ background: "lightgrey" }}
+                  expandIcon={<ExpandMoreIcon />}
+                >
+                  <Typography
+                    sx={{ fontSize: 16 }}
+                    gutterBottom
+                    textTransform="capitalize"
+                  >
+                    {t("equipmentAccordionTitle10")}
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails sx={{ background: "#f3f3f3" }}>
+                  <Stack spacing={2}>
+                    <Typography
+                      sx={{ fontSize: 17, textTransform: "capitalize" }}
+                    >
+                      {t("equipmentAccordionItem10_1")} :
+                    </Typography>
+                    <Stack direction="row" spacing={4}>
+                      <Typography sx={{ fontSize: 17 }}>Ст10</Typography>
+                      <Typography sx={{ fontSize: 17 }}>Ст 20</Typography>
+                    </Stack>
+                    <Stack direction="row" spacing={4}>
+                      <Typography sx={{ fontSize: 17 }}>09Г2С</Typography>
+                      <Typography sx={{ fontSize: 17 }}>10Г2А</Typography>
+                    </Stack>
+                  </Stack>
+                </AccordionDetails>
+              </Accordion>
             </Stack>
           </Grid>
           <Grid item lg={6} md={6} sm={12} xs={12}>

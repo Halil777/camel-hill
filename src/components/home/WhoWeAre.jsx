@@ -27,7 +27,8 @@ const WhoWeAre = () => {
             textAlign: { lg: "start", md: "start", sm: "center", xs: "center" },
           }}
         >
-          {t("aboutUsText")}
+          {/* {t("aboutUsText")} */}
+          {t("aboutUsText2")}
         </Typography>
         <Typography align="center" sx={titleStyle} mt={2}>
           Lorem ipsum dolor, sit amet consectetur

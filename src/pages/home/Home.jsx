@@ -8,9 +8,18 @@ const Home = () => {
   const { t } = useTranslation();
   const back1 = "./oil/oilBack2.jpg";
 
+  const backgroundImageUrl = (() => {
+    try {
+      return localStorage.getItem(back1) || back1;
+    } catch (error) {
+      console.error("Error getting background image URL:", error);
+      return back1;
+    }
+  })();
+
   const backgroundImageStyle = {
     paddingTop: 150,
-    background: `url(${back1}) center/cover no-repeat`,
+    background: `url(${backgroundImageUrl}) center/cover no-repeat`,
     height: "100vh",
   };
 
