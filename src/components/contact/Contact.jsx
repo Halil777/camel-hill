@@ -45,6 +45,11 @@ const Contact = () => {
       await axios.post("http://95.85.121.153:7727/send-email", formData);
 
       toast.success("Message sent successfully!");
+      setFormData({
+        fullName: "",
+        email: "",
+        message: "",
+      });
     } catch (error) {
       toast.error("Error sending message. Please try again.");
       console.error("Error sending email:", error);
