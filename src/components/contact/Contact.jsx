@@ -43,7 +43,7 @@ const Contact = () => {
 
     try {
       // Make a POST request to the server
-      await axios.post("http://localhost:3001/send-email", formData);
+      await axios.post("http://localhost:7727/send-email", formData);
 
       // Display success message
       toast.success("Message sent successfully!");
