@@ -42,13 +42,10 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      // Make a POST request to the server
-      await axios.post("http://localhost:7727/send-email", formData);
+      await axios.post("http://95.85.121.153:7727/send-email", formData);
 
-      // Display success message
       toast.success("Message sent successfully!");
     } catch (error) {
-      // Display error message
       toast.error("Error sending message. Please try again.");
       console.error("Error sending email:", error);
     }
