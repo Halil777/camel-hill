@@ -30,9 +30,6 @@ const WhoWeAre = () => {
           {/* {t("aboutUsText")} */}
           {t("aboutUsText2")}
         </Typography>
-        <Typography align="center" sx={titleStyle} mt={2}>
-          Lorem ipsum dolor, sit amet consectetur
-        </Typography>
         <Grid container spacing={3} mt={1}>
           <Grid item lg={3} md={3} sm={6} xs={12}>
             <Card

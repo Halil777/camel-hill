@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Container,
   Grid,
@@ -17,9 +18,41 @@ import {
 } from "@pbe/react-yandex-maps";
 import Partners from "../../pages/partners/Partners";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const { t } = useTranslation();
+
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    message: "",
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Make a POST request to the server
+      await axios.post("http://localhost:3001/send-email", formData);
+
+      // Display success message
+      toast.success("Message sent successfully!");
+    } catch (error) {
+      // Display error message
+      toast.error("Error sending message. Please try again.");
+      console.error("Error sending email:", error);
+    }
+  };
 
   return (
     <div style={{ marginTop: "100px" }}>
@@ -55,6 +88,7 @@ const Contact = () => {
                   flexDirection: "column",
                   gap: 2,
                 }}
+                onSubmit={handleSubmit}
               >
                 <TextField
                   data-aos="fade-right"
@@ -70,6 +104,9 @@ const Contact = () => {
                   InputLabelProps={{ style: { color: "#fff" } }}
                   required
                   fullWidth
+                  name="fullName"
+                  value={formData.fullName}
+                  onChange={handleInputChange}
                 />
                 <TextField
                   data-aos="fade-right"
@@ -86,6 +123,9 @@ const Contact = () => {
                   InputLabelProps={{ style: { color: "#fff" } }}
                   required
                   fullWidth
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
                 />
                 <TextField
                   data-aos="fade-right"
@@ -103,6 +143,9 @@ const Contact = () => {
                   InputLabelProps={{ style: { color: "#fff" } }}
                   required
                   fullWidth
+                  name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
                 />
                 <Button
                   variant="contained"
@@ -149,6 +192,7 @@ const Contact = () => {
           </Grid>
         </Container>
       </Box>
+      <ToastContainer position="bottom-right" />
     </div>
   );
 };
