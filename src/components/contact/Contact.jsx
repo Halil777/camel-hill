@@ -52,7 +52,7 @@ const Contact = () => {
       });
     } catch (error) {
       toast.error("Error sending message. Please try again.");
-      console.error("Error sending email:", error);
+      console.log("Error sending email:", error);
     }
   };
 
@@ -93,8 +93,8 @@ const Contact = () => {
                 onSubmit={handleSubmit}
               >
                 <TextField
-                  data-aos="fade-right"
-                  data-aos-delay="400"
+                  // data-aos="fade-right"
+                  // data-aos-delay="400"
                   label={t("fullName")}
                   variant="outlined"
                   InputProps={{
@@ -111,8 +111,8 @@ const Contact = () => {
                   onChange={handleInputChange}
                 />
                 <TextField
-                  data-aos="fade-right"
-                  data-aos-delay="500"
+                  // data-aos="fade-right"
+                  // data-aos-delay="500"
                   label={t("email")}
                   variant="outlined"
                   type="email"
@@ -130,8 +130,8 @@ const Contact = () => {
                   onChange={handleInputChange}
                 />
                 <TextField
-                  data-aos="fade-right"
-                  data-aos-delay="600"
+                  // data-aos="fade-right"
+                  // data-aos-delay="600"
                   label={t("message")}
                   variant="outlined"
                   multiline
@@ -165,8 +165,8 @@ const Contact = () => {
               md={6}
               sm={12}
               xs={12}
-              data-aos="fade-left"
-              data-aos-delay="400"
+              // data-aos="fade-left"
+              // data-aos-delay="400"
             >
               <YMaps>
                 <div>

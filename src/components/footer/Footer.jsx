@@ -16,8 +16,8 @@ const Footer = () => {
         <Grid container pt={5} pb={5}>
           <Grid item lg={4} md={4} sm={6} xs={12}>
             <Typography
-              data-aos="fade-right"
-              data-aos-delay="400"
+              // data-aos="fade-right"
+              // data-aos-delay="400"
               variant="h5"
               sx={{
                 color: "#fff",
@@ -66,8 +66,8 @@ const Footer = () => {
           </Grid>
           <Grid item lg={4} md={4} sm={6} xs={12}>
             <Typography
-              data-aos="fade-right"
-              data-aos-delay="400"
+              // data-aos="fade-right"
+              // data-aos-delay="400"
               variant="h5"
               sx={{
                 color: "#fff",
@@ -122,8 +122,8 @@ const Footer = () => {
             <Stack spacing={3}>
               <Typography
                 color="#fff"
-                data-aos="fade-left"
-                data-aos-delay="400"
+                // data-aos="fade-left"
+                // data-aos-delay="400"
                 sx={{ fontSize: "20px" }}
               >
                 {t("footerText")}
