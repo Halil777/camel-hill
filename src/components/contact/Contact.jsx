@@ -42,7 +42,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://216.250.10.168:7797/send-email", formData);
+      await axios.post("http://localhost:7797/ send - email", formData);
 
       toast.success("Message sent successfully!");
       setFormData({
