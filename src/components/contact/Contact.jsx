@@ -42,7 +42,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:7797/ send - email", formData);
+      await axios.post("https://duyelidepe.com/mail/send-email", formData);
 
       toast.success("Message sent successfully!");
       setFormData({
@@ -100,7 +100,7 @@ const Contact = () => {
                   InputProps={{
                     style: {
                       color: "#fff",
-                      border: "1px solid #fff",
+                      // border: "1px solid #fff",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
@@ -119,7 +119,7 @@ const Contact = () => {
                   InputProps={{
                     style: {
                       color: "#fff",
-                      border: "1px solid #fff",
+                      // border: "1px solid #fff",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
@@ -139,7 +139,7 @@ const Contact = () => {
                   InputProps={{
                     style: {
                       color: "#fff",
-                      border: "1px solid #fff",
+                      // border: "1px solid #fff",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
