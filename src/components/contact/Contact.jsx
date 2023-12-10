@@ -99,7 +99,7 @@ const Contact = () => {
                   variant="outlined"
                   InputProps={{
                     style: {
-                      color: "#fff",
+                      color: "white",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
