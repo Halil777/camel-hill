@@ -100,7 +100,6 @@ const Contact = () => {
                   InputProps={{
                     style: {
                       color: "#fff",
-                      // border: "1px solid #fff",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
@@ -119,7 +118,6 @@ const Contact = () => {
                   InputProps={{
                     style: {
                       color: "#fff",
-                      // border: "1px solid #fff",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
@@ -139,7 +137,6 @@ const Contact = () => {
                   InputProps={{
                     style: {
                       color: "#fff",
-                      // border: "1px solid #fff",
                     },
                   }}
                   InputLabelProps={{ style: { color: "#fff" } }}
