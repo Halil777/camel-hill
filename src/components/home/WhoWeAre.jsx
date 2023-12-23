@@ -6,8 +6,9 @@ import {
   CardMedia,
   CardActionArea,
   CardContent,
+  Button,
 } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { titleStyle } from "../../style/style.mjs";
 
@@ -128,6 +129,14 @@ const WhoWeAre = () => {
                 </CardContent>
               </CardActionArea>
             </Card>
+          </Grid>
+          <Grid item lg={3} md={3} sm={6} xs={12}>
+            <Button variant="contained" onClick={(e) => navigate("/oil-gas")}>
+              Oil Gas
+            </Button>
+            <Link to={"/oil-gas"}>
+              <Button variant="contained">Oil Gas</Button>
+            </Link>
           </Grid>
         </Grid>
       </Container>

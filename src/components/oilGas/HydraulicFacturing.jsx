@@ -7,6 +7,7 @@ import {
   Container,
   Stack,
   Typography,
+  useMediaQuery,
 } from "@mui/material";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -16,6 +17,7 @@ import { titleStyle } from "../../style/style.mjs";
 
 const HydraulicFracturing = () => {
   const { t } = useTranslation();
+  const isSmallScreen = useMediaQuery("(max-width:768px)");
 
   const [cardData, setCardData] = useState([
     {
@@ -126,7 +128,7 @@ const HydraulicFracturing = () => {
         transitionTime={2000}
         emulateTouch // Emulate touch behavior for desktops
         centerMode={true} // Enable center mode
-        centerSlidePercentage={33.3}
+        centerSlidePercentage={isSmallScreen ? 100 : 33.3}
         showIndicators={false}
       >
         {cardData.map((item, index) => (
