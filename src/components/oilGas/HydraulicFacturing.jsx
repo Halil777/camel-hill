@@ -123,13 +123,14 @@ const HydraulicFracturing = () => {
         autoPlay={true}
         autoFocus
         infiniteLoop
-        interval={3000}
+        interval={isSmallScreen ? 5000 : 3500}
         swipeable
-        transitionTime={2000}
+        transitionTime={3000}
         emulateTouch // Emulate touch behavior for desktops
         centerMode={true} // Enable center mode
         centerSlidePercentage={isSmallScreen ? 100 : 33.3}
         showIndicators={false}
+        stopOnHover={true}
       >
         {cardData.map((item, index) => (
           <div key={index} style={{ marginTop: "80px" }}>
