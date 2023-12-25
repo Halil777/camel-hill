@@ -755,7 +755,7 @@ const resources = {
         " Sahypamyza hoş geldiňiz we kompaniýamyz bilen gyzyklanýandygyňyz üçin minnetdarlygymyzy bildirýäris. Duýeli Depe HJ, köp ýyllyk tejribesi we öz ugry boýunça ýokary hünärli hünärmenleri bir ýere jemlän häzirki zaman, çalt ösýän we özgerýän  kompaniýalaryň biridir. 2021-nji ýylda işe başlan bu hojalyk jemgyýeti, gurluşyk we daşky gurşawyň täsirine baha bermek (DGB) hyzmatlary bilen, Eni Türkmenistan, Türkmenistandaky Hytaýyň Milli Nebit Gaz kompaniýasy, Dragon Oil we Chalik Energy ýaly kompaniýalar bilen işleşip durnukly ösüşe goşant goşýar. Nebit we gaz pudagynda öňdebaryjy enjamlar, himiýa we hyzmat kompaniýalary we ähli pudaklarda innowasiýa ösüşini öndürýän tehnologiki kompaniýalar bilen hyzmatdaşlyk edýär we  Türkmen bazary üçin ýokary hilli önümleri, hyzmatlary we çözgütleri hödürlemäge mümkinçilik berýär. Işimizde, her bir müşderä aýratyn çemeleşme tapmaga çalyşýarys we uzak möhletli we özara peýdaly hyzmatdaşlyga üns berýäris.",
 
       aboutUsText2:
-        "Sahypamyza hoş geldiňiz we kompaniýamyz bilen gyzyklananyňyz üçin sag bolsun aýdýaryn. HO - Duýeli Depe, köp ýyllyk tejribesi we öz ugrundaky bilimleri bolan ýokary hünärli hünärmenleri birleşdirýän häzirki zaman, çalt ösýän kompaniýa. Gurluşyk we daşky gurşawa täsire baha bermek (EIA) hyzmatlary babatynda 2021-nji ýylda başlap, Eni Türkmenistan, Türkmenistandaky Hytaý Milli Nebit Gaz kompaniýasy, Dragon Oil we Chalik Energy ýaly kompaniýalar üçin durnukly ösüşe goşant goşýarys. Nebit we gaz pudagynda öňdebaryjy enjam öndürijiler, himiýa we hyzmat kompaniýalary, şeýle hem ähli pudaklarda innowasiýa ösüşini öndürýän tehnologiýa kompaniýalary bilen hyzmatdaşlyk, Türkmenistan bazaryna ýokary hilli önümleri, hyzmatlary we çözgütleri hödürlemäge mümkinçilik berýär. Işimizde, her bir müşderä aýratyn çemeleşmäge we uzak möhletli we özara peýdaly hyzmatdaşlyga ünsi jemlemäge çalyşýarys.",
+        "Sahypamyza hoş geldiňiz we kompaniýamyz bilen gyzyklananyňyz üçin sag bolsun aýdýarys. HO - Duýeli Depe, köp ýyllyk tejribesi we öz ugrundaky bilimleri bolan ýokary hünärli hünärmenleri birleşdirýän häzirki zaman, çalt ösýän kompaniýa. Gurluşyk we daşky gurşawa täsire baha bermek (EIA) hyzmatlary babatynda 2021-nji ýylda başlap, Eni Türkmenistan, Türkmenistandaky Hytaý Milli Nebit Gaz kompaniýasy, Dragon Oil we Chalik Energy ýaly kompaniýalar üçin durnukly ösüşe goşant goşýarys. Nebit we gaz pudagynda öňdebaryjy enjam öndürijiler, himiýa we hyzmat kompaniýalary, şeýle hem ähli pudaklarda innowasiýa ösüşini öndürýän tehnologiýa kompaniýalary bilen hyzmatdaşlyk, Türkmenistan bazaryna ýokary hilli önümleri, hyzmatlary we çözgütleri hödürlemäge mümkinçilik berýär. Işimizde, her bir müşderä aýratyn çemeleşmäge we uzak möhletli we özara peýdaly hyzmatdaşlyga ünsi jemlemäge çalyşýarys.",
       constructionEcology: "Gurluşyk / Ekologiýa",
       oilGas: "Nebit we Gaz hyzmatlary",
       equipmentChemistry: "Enjamlar / Himiýa",
@@ -805,7 +805,7 @@ const resources = {
       carouselTitle2: "Döwülen burawyň uly göwrümi",
       carouselTitle3: "Köp basgançakly gidrawlik döwüji buraw",
       carouselTitle4: "Köpük döwmek",
-      carouselTitle5: "Azotyň döwülmegi",
+      carouselTitle5: "Azodyň döwülmegi",
       carouselTitle6: "Uglewodorod esasly gidrawlik döwük",
       carouselTitle7:
         "Birleşdirilen wilkalar bilen gidrawlik döwük (Plug & Perf)",
@@ -829,7 +829,7 @@ const resources = {
       carouselDescription4:
         "Köpük döwülmegi, köpükleri döwüklere daşamak, suw howdanynyň zeperini azaltmak we uglewodorod akymyny güýçlendirmek üçin ulanylýan usuldyr.",
       carouselDescription5:
-        "Azot gidrawlik döwülişi, azoty işleýän suwuklyk hökmünde ulanyp, gidrawliki döwmegiň netijeliligini ýokarlandyrmak üçin ulanylýar, bu suw howdanynyň zaýalanmagyna we nebitiň we gazyň dikeldilmegine sebäp bolýar.",
+        "Azot gidrawlik döwülişi, azoDy işleýän suwuklyk hökmünde ulanyp, gidrawliki döwmegiň netijeliligini ýokarlandyrmak üçin ulanylýar, bu suw howdanynyň zaýalanmagyna we nebitiň we gazyň dikeldilmegine sebäp bolýar.",
       carouselDescription6:
         "Uglewodorod esasly gidrawliki döwmek usulymyz, ekologiýa taýdan arassa uglewodorodlary işleýän suwuklyk hökmünde ulanýar, çeşmeleriň çykarylyşyny köpeltmek bilen daşky gurşawa täsirini azaldýar.",
       carouselDescription7:
@@ -871,7 +871,7 @@ const resources = {
       serviceTitle5: "OPP we RIR",
       serviceTitle6: "Suwuk azot öndürmek",
       serviceTitle7: "Guýulary ösdürmek we synag etmek",
-      serviceTitle8: "Gowy gutarmak",
+      serviceTitle8: "Guýy guratmak",
       serviceTitle9: "Täze tehnologiýalary ösdürmek",
       serviceTitle10:
         "Portlary, ulag dyknyşyklaryny we ş.m. (DDM, bankalar, aýyryjylar, palçyk duzaklary)",
@@ -886,12 +886,12 @@ const resources = {
       serviceTitle16:
         "Coapylan turbalarda GIS (Kabel, ýeke-täk gurallar bilen turba)",
       serviceTitle17: "Aýlaw ulgamlary bilen GIS (Y-Tool)",
-      serviceTitle18: "Coollanan turbalarda jet nasoslarynyň ösüşi",
+      serviceTitle18: "Coapylan turbalarda jet nasoslarynyň ösüşi",
       serviceTitle19: "Deňagramsyz KT burawlamak",
       serviceDescription1:
-        "Coiled Tubing Technologies, nebit we gaz pudagynda dürli guýy gatyşmak amallaryny ýerine ýetirmek üçin üznüksiz örtülen turbalary ulanmagy öz içine alýar. Bu tehnologiýa, arassalamak, azot urmak we başgalar ýaly artykmaçlyklary hödürleýär. Coapylan turba turbalary turbalary öz içine alýan rulon bilen enjamlaşdyrylandyr we birleşdirilen turba bölümleriniň zerurlygy bolmazdan guýa ýerleşdirilip bilner. Bu usul tygşytly we köptaraply bolup, ony bu ugurdaky köp sanly programma üçin amatly edýär.",
+        "Coiled Tubing Technologies, nebit we gaz pudagynda dürli guýy gatyşmak amallaryny ýerine ýetirmek üçin üznüksiz örtülen turbalary ulanmagy öz içine alýar. Bu tehnologiýa, arassalamak, azot urmak we başgalar ýaly artykmaçlyklary hödürleýär. Coapylan turba  turbalary öz içine alýan rulon bilen enjamlaşdyrylandyr we birleşdirilen turba bölümleriniň zerurlygy bolmazdan guýa ýerleşdirilip bilner. Bu usul tygşytly we köptaraply bolup, ony bu ugurdaky köp sanly programma üçin amatly edýär.",
       serviceDescription2:
-        "Gidrawlik döwük, döwmek diýlip hem atlandyrylýar, gaýalaryň emele gelmeginde döwükler döredip, suw howdanlaryndan uglewodorodlaryň öndürilmegini höweslendirmek üçin ulanylýan usul. Nebitiň ýa-da gazyň has erkin akmagyna mümkinçilik berýän çatryklary döretmek üçin guýyga ýokary basyşly suwuklyk sanjylýar. Bu amal guýynyň öndürijiligini ýokarlandyrmak we berk ýa-da adaty däl suw howdanlaryndan uglewodorodlary çykarmak üçin zerurdyr.",
+        "Gidrawlik döwük, döwmek diýlip hem atlandyrylýar, gaýalaryň emele gelmeginde döwükler döredip, suw howdanlaryndan uglewodorodlaryň öndürilmegini höweslendirmek üçin ulanylýan usul. Nebitiň ýa-da gazyň has erkin akmagyna mümkinçilik berýän çatryklary döretmek üçin guýa ýokary basyşly suwuklyk sanjylýar. Bu amal guýynyň öndürijiligini ýokarlandyrmak we berk ýa-da adaty däl suw howdanlaryndan uglewodorodlary çykarmak üçin zerurdyr.",
       serviceDescription3:
         "Buraw we iş işleri täze guýulary burawlamagy we bar bolan guýulary abatlamagy ýa-da gowulandyrmagy öz içine alýar. Bu gözleg guýularyny burawlamak, bar bolan guýulary gaýtadan burawlamak we önümçiligi gowulandyrmak üçin tehniki hyzmat etmek ýaly çäreleri öz içine alýar. Tejribeli hünärmenler buraw we iş işleriniň netijeliligini we howpsuzlygyny üpjün etmek üçin ösen enjamlary we tehnologiýalary ulanýarlar.",
       serviceDescription4:
@@ -899,7 +899,7 @@ const resources = {
       serviceDescription5:
         "OPP (aşa basyşy goramak) we RIR (töwekgelçiligi kesgitlemek we azaltmak) nebit we gaz pudagynda möhüm howpsuzlyk çäreleri. OPP ulgamlary guýy işlerinde aşa basyş hadysalarynyň öňüni almak üçin döredildi, RIR bolsa uglewodorodlary burawlamak, öndürmek we daşamak bilen baglanyşykly töwekgelçilikleri ýüze çykarmagy we azaltmagy öz içine alýar. Bu howpsuzlyk çäreleri işçileri we daşky gurşawy goramak üçin möhümdir.",
       serviceDescription6:
-        "Suwuk azotyň öndürilmegi nebit-gaz pudagynda möhüm prosesdir. Suwuk azot guýy höweslendirmek, turbageçirijileri arassalamak we sowadyjy enjamlar ýaly dürli programmalar üçin ulanylýar. Howanyň kriogen bölünişi bilen öndürilýär we köp pudakda möhüm rol oýnaýar.",
+        "Suwuk azodyň öndürilmegi nebit-gaz pudagynda möhüm prosesdir. Suwuk azot guýy höweslendirmek, turbageçirijileri arassalamak we sowadyjy enjamlar ýaly dürli programmalar üçin ulanylýar. Howanyň kriogen bölünişi bilen öndürilýär we köp pudakda möhüm rol oýnaýar.",
       serviceDescription7:
         "Guýularyň ösüşi we synagy uglewodorodlary gözlemekde we öndürmekde möhüm tapgyrdyr. Bu guýulary burawlamagy, suw howdanynyň häsiýetlerine baha bermegi we önümçilik potensialyny kesgitlemek üçin guýy synaglaryny geçirmegi öz içine alýar. Tejribeli toparlar gowy ösüşi optimizirlemek we uglewodorodlaryň netijeli çykarylmagyny üpjün etmek üçin ösen tehnologiýalary ulanýarlar.",
       serviceDescription8:
@@ -1075,17 +1075,17 @@ const resources = {
       innTitle2: "Innowasiýa tehnologiýalary",
       innTitle: "Innowasiýa tehnologiýalary: Liderlik dowam edýär",
       innTitle3: "Tanklary arassalamak robot tehnologiýasy",
-      innTitle4: "Turba geçitijelrini içinden arassalaýyş tehnologiýasy",
+      innTitle4: "Turba geçirijilerini içinden arassalaýyş tehnologiýasy",
       innTitle5: "Robot gözegçileri",
       innTitle6: "Uzakdan işletmek üçin suwasty enjam",
       innDesc1:
-        "Häzirki zaman dünýäsinde innowasiýa, senagat pudagynyň aýyrylmaz bölegi bolup durýar. Bazarda ýüze çykýan şertler, döwletiň we ykdysadyýetiň ösüşi üçin innowasiýasyz bolup bilmejegini aýdýar. Şunuň bilen baglylykda, kompaniýamyz kärhanalryň bäsdeşlige ukyplylygyny ýokarlandyrmak üçin dünýäniň öňde baryjy roboto tehniki öndürijileriniň önümlerini hödürleýär. Senagatyň ösüşi, tehnologiki derejesiniň ýokarlanmagy we ykdysady netijeleliginň ýokarlanmagy bilen utgaşýar. ",
+        "Häzirki zaman dünýäsinde innowasiýa, senagat pudagynyň aýrylmaz bölegi bolup durýar. Bazarda ýüze çykýan şertler, döwletiň we ykdysadyýetiň ösüşi üçin innowasiýasyz bolup bilmejegini aýdýar. Şunuň bilen baglylykda, kompaniýamyz kärhanalaryň bäsdeşlige ukyplylygyny ýokarlandyrmak üçin dünýäniň öňde baryjy roboto tehniki öndürijileriniň önümlerini hödürleýär. Senagatyň ösüşi, tehnologiki derejesiniň ýokarlanmagy we ykdysady netijeleliginň ýokarlanmagy bilen utgaşýar. ",
       innDesc2:
-        "“No Man Entry” esasly nebit tanklaryndan nebit galyndylaryny aýyrmak üçin robot gurnama, adamlaryň saglygyny we daşky gurşawy goramak üçin niýetlenen, tanklaryň  diwarlaryny, aşaky bölegini we üçegini çökündilerden ýuwýar we çykarylan galyndylaryny mundan beýläk-de işlenilip ulanylmagyny üpjün edýär. Enjam ATEX Ýewropa standartlarynyň partlamadan goramak şahadatnamasy alan. Işleriň alynyp barmagy barda : 24/7 işlemek ukypçylygy , galyndylary almak üçin niýetlenen ýokary tizlikli  nasosy we gaýtadan işleýän bölümiň ýokary derejede öndürijiligi, enjamlary gurnamagyň / sökmegiň gysga möhletleri, ýer taýýarlamak ýa-da kran enjamlaryny ulanmak zerurlygy ýoklygyny. Nebit galyndylarynyň mukdaryny, transport we zibil çykdajylaryny azaltmagy. Zähmeti goramak, senagat we daşky gurşaw howpsuzlygy pudagynda 100% howpsuzlygy. Iş - ýylyň dowamynda - 25-den +70 ° C temperatura çenli päsgelçiliksiz işläp bilmegi.",
+        "“No Man Entry” esasly nebit tanklaryndan nebit galyndylaryny aýyrmak üçin robot gurnama, adamlaryň saglygyny we daşky gurşawy goramak üçin niýetlenen, tanklaryň  diwarlaryny, aşaky bölegini we üçegini çökündilerden ýuwýar we çykarylan galyndylaryny mundan beýläk-de işlenilip ulanylmagyny üpjün edýär. Enjam ATEX Ýewropa standartlarynyň partlamadan goramak şahadatnamasy alan. Işleriň alnyp barmagy barda : 24/7 işlemek ukypçylygy , galyndylary almak üçin niýetlenen ýokary tizlikli  nasosy we gaýtadan işleýän bölümiň ýokary derejede öndürijiligi, enjamlary gurnamagyň / sökmegiň gysga möhletleri, ýer taýýarlamak ýa-da kran enjamlaryny ulanmak zerurlygy ýoklugyny. Nebit galyndylarynyň mukdaryny, transport we zibil çykdajylaryny azaltmagy. Zähmeti goramak, senagat we daşky gurşaw howpsuzlygy pudagynda 100% howpsuzlygy. Iş - ýylyň dowamynda - 25-den +70 ° C temperatura çenli päsgelçiliksiz işläp bilmegi.",
       innDesc3:
         " Çylşyrymly şahalanan bölümlerine gözegçilik etmek we arassalamak üçin niýetlenen robot ulgamy . Robot platformasy diagnostika we arassalamak üçin häzirki wagtda bar bolan çözgütlerden has ýokary işçiligi bilen tapawutlanýar. Ulgam, heläkçilikleriň, adam pidalarynyň we daşky gurşawa zeper ýetmeginiň öňüni almak üçin , turbageçirijileriň häzirki zaman tehniki ýagdaýyna baha bermek üçin döredilen. ",
       innDesc4:
-        "Nebit we gaz pudagynda akylly dört aýakly robotyň ornaşdyrylmagy, adaty lazer metanyň syzdyryş enjamlaryny bilen üpçün edilip, adaty gözleg amallaryny has ygtybarly we has netijeli etmek üçin niýetlenen. Nebit-gaz pudagyny sanly üýtgeşmeleri amala aşyrýar.  Robotyň ýokary maglumat ýygnamak mümkinçilikleri işçileri has wajyp işleri ýerine ýetirmek üçin ol işlerden boşadyp biler. Dört aýakly robot awtomatiki hereket edip, zarýad alyp, maglumatlary ýygnap, gözleg hasabatyny döredip, adaty bolmadyk syzyşlaryň çeşmesini tapyp we adatdan daşary hadysalary wagtynda öňüni almak barada kömek edip biler.",
+        "Nebit we gaz pudagynda akylly dört aýakly robotyň ornaşdyrylmagy, adaty lazer metanyň syzdyryş enjamlaryny bilen üpjün edilip, adaty gözleg amallaryny has ygtybarly we has netijeli etmek üçin niýetlenen. Nebit-gaz pudagyny sanly üýtgeşmeleri amala aşyrýar.  Robotyň ýokary maglumat ýygnamak mümkinçilikleri işçileri has wajyp işleri ýerine ýetirmek üçin ol işlerden boşadyp biler. Dört aýakly robot awtomatiki hereket edip, zarýad alyp, maglumatlary ýygnap, gözleg hasabatyny döredip, adaty bolmadyk syzyşlaryň çeşmesini tapyp we adatdan daşary hadysalary wagtynda öňüni almak barada kömek edip biler.",
       innDesc5:
         "Uzakdan dolandyrylýan adamsyz suwasty enjamlarynyň alyp barýan işleri: suwasty topragy kartalaşdyrmak, gözleg işleri alyp barmak, halas ediş işleri geçirmek, çökündileri we uly zatlary ýitileşdirmek we aýyrmak, nebit we gaz toplumynyň suwasty desgalaryny goldamak üçin (buraw goldawy, gaz turbageçirijileriniň barlaglary), ylmy goşundylar geçirmek, suwa çümmek goldawyny bermek, balyk hojalygyna hyzmat etmek, suwasty arheologiki gözlegler, suwasty partlaýjylarynyň gözlegini etmek ýa-da gämilere birikdirilen kontraband harytlarynyň barlygy etmek üçin we ş.m işleri alyp barmak. Çözülmeli meseleleriň gerimi yzygiderli giňeldilýär.",
     },
