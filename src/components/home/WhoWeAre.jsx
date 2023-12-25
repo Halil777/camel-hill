@@ -130,14 +130,6 @@ const WhoWeAre = () => {
               </CardActionArea>
             </Card>
           </Grid>
-          <Grid item lg={3} md={3} sm={6} xs={12}>
-            <Button variant="contained" onClick={(e) => navigate("/oil-gas")}>
-              Oil Gas
-            </Button>
-            <Link to={"/oil-gas"}>
-              <Button variant="contained">Oil Gas</Button>
-            </Link>
-          </Grid>
         </Grid>
       </Container>
     </>
